@@ -1,0 +1,4558 @@
+{
+  "car_types": [
+    {
+      "id": 1,
+      "type": "Limuzina"
+    },
+    {
+      "id": 2,
+      "type": "Malo auto"
+    },
+    {
+      "id": 3,
+      "type": "Karavan"
+    },
+    {
+      "id": 4,
+      "type": "Monovolumen"
+    },
+    {
+      "id": 5,
+      "type": "Kombi"
+    },
+    {
+      "id": 6,
+      "type": "Terenac"
+    },
+    {
+      "id": 7,
+      "type": "SUV"
+    },
+    {
+      "id": 8,
+      "type": "Kabriolet"
+    },
+    {
+      "id": 9,
+      "type": "Sportski/kupe"
+    },
+    {
+      "id": 10,
+      "type": "Off-road"
+    },
+    {
+      "id": 11,
+      "type": "Caddy"
+    },
+    {
+      "id": 12,
+      "type": "Pick-up"
+    },
+    {
+      "id": 13,
+      "type": "Oldtimer"
+    },
+    {
+      "id": 14,
+      "type": "Ostali"
+    }
+  ],
+  "countries": [
+    {
+      "id": 1,
+      "name": "Njemačka"
+    },
+    {
+      "id": 2,
+      "name": "Francuska"
+    },
+    {
+      "id": 3,
+      "name": "Italija"
+    },
+    {
+      "id": 4,
+      "name": "Južna Koreja"
+    },
+    {
+      "id": 5,
+      "name": "Japan"
+    },
+    {
+      "id": 6,
+      "name": "Španija"
+    },
+    {
+      "id": 7,
+      "name": "Češka Republika"
+    },
+    {
+      "id": 8,
+      "name": "SAD"
+    },
+    {
+      "id": 9,
+      "name": "Švedska"
+    },
+    {
+      "id": 10,
+      "name": "Velika Britanija"
+    },
+    {
+      "id": 11,
+      "name": "Rusija"
+    },
+    {
+      "id": 12,
+      "name": "Srbija"
+    },
+    {
+      "id": 13,
+      "name": "Kina"
+    },
+    {
+      "id": 14,
+      "name": "Ostali"
+    }
+  ],
+  "drive_types": [
+    {
+      "id": 1,
+      "type": "Prednji"
+    },
+    {
+      "id": 2,
+      "type": "Zadnji"
+    },
+    {
+      "id": 3,
+      "type": "Sva četiri"
+    }
+  ],
+  "fuel_types": [
+    {
+      "id": 1,
+      "type": "Benzin"
+    },
+    {
+      "id": 2,
+      "type": "Dizel"
+    },
+    {
+      "id": 3,
+      "type": "Plin"
+    },
+    {
+      "id": 4,
+      "type": "Hibrid"
+    },
+    {
+      "id": 5,
+      "type": "Električni"
+    }
+  ],
+  "manufacturers": [
+    {
+      "id": 999,
+      "name": "SVI",
+      "countryId": 1
+    },
+    {
+      "id": 1,
+      "name": "Audi",
+      "countryId": 1
+    },
+    {
+      "id": 2,
+      "name": "BMW",
+      "countryId": 1
+    },
+    {
+      "id": 3,
+      "name": "Mercedes Benz",
+      "countryId": 1
+    },
+    {
+      "id": 4,
+      "name": "Volkswagen",
+      "countryId": 1
+    },
+    {
+      "id": 5,
+      "name": "Opel",
+      "countryId": 1
+    },
+    {
+      "id": 6,
+      "name": "Citroen",
+      "countryId": 2
+    },
+    {
+      "id": 7,
+      "name": "Peugeot",
+      "countryId": 2
+    },
+    {
+      "id": 8,
+      "name": "Renault",
+      "countryId": 2
+    },
+    {
+      "id": 9,
+      "name": "Alfa Romeo",
+      "countryId": 3
+    },
+    {
+      "id": 10,
+      "name": "Fiat",
+      "countryId": 3
+    },
+    {
+      "id": 11,
+      "name": "Hyundai",
+      "countryId": 4
+    },
+    {
+      "id": 12,
+      "name": "Kia",
+      "countryId": 4
+    },
+    {
+      "id": 13,
+      "name": "Ssangyong",
+      "countryId": 4
+    },
+    {
+      "id": 14,
+      "name": "Mazda",
+      "countryId": 5
+    },
+    {
+      "id": 15,
+      "name": "Mitsubishi",
+      "countryId": 5
+    },
+    {
+      "id": 16,
+      "name": "Toyota",
+      "countryId": 5
+    },
+    {
+      "id": 17,
+      "name": "Suzuki",
+      "countryId": 5
+    },
+    {
+      "id": 18,
+      "name": "Seat",
+      "countryId": 6
+    },
+    {
+      "id": 19,
+      "name": "Cupra",
+      "countryId": 6
+    },
+    {
+      "id": 20,
+      "name": "Škoda",
+      "countryId": 7
+    },
+    {
+      "id": 21,
+      "name": "Chevrolet",
+      "countryId": 8
+    },
+    {
+      "id": 22,
+      "name": "Dodge",
+      "countryId": 8
+    },
+    {
+      "id": 23,
+      "name": "Chrysler",
+      "countryId": 8
+    },
+    {
+      "id": 24,
+      "name": "Jeep",
+      "countryId": 8
+    },
+    {
+      "id": 25,
+      "name": "Ford",
+      "countryId": 8
+    },
+    {
+      "id": 26,
+      "name": "Land Rover",
+      "countryId": 10
+    },
+    {
+      "id": 27,
+      "name": "Jaguar",
+      "countryId": 10
+    },
+    {
+      "id": 28,
+      "name": "Lada",
+      "countryId": 11
+    },
+    {
+      "id": 29,
+      "name": "Zastava",
+      "countryId": 12
+    },
+    {
+      "id": 30,
+      "name": "Porsche",
+      "countryId": 1
+    },
+    {
+      "id": 31,
+      "name": "Cadillac",
+      "countryId": 8
+    }
+  ],
+  "models": [
+    {
+      "id": 1,
+      "name": "A1",
+      "manufacturerId": 1
+    },
+    {
+      "id": 2,
+      "name": "A2",
+      "manufacturerId": 1
+    },
+    {
+      "id": 3,
+      "name": "A3",
+      "manufacturerId": 1
+    },
+    {
+      "id": 4,
+      "name": "A4",
+      "manufacturerId": 1
+    },
+    {
+      "id": 5,
+      "name": "A5",
+      "manufacturerId": 1
+    },
+    {
+      "id": 6,
+      "name": "A6",
+      "manufacturerId": 1
+    },
+    {
+      "id": 7,
+      "name": "A7",
+      "manufacturerId": 1
+    },
+    {
+      "id": 8,
+      "name": "A8",
+      "manufacturerId": 1
+    },
+    {
+      "id": 9,
+      "name": "Q2",
+      "manufacturerId": 1
+    },
+    {
+      "id": 10,
+      "name": "Q3",
+      "manufacturerId": 1
+    },
+    {
+      "id": 11,
+      "name": "Q3 Sportback",
+      "manufacturerId": 1
+    },
+    {
+      "id": 12,
+      "name": "Q5",
+      "manufacturerId": 1
+    },
+    {
+      "id": 13,
+      "name": "Q5 Sportback",
+      "manufacturerId": 1
+    },
+    {
+      "id": 14,
+      "name": "Q7",
+      "manufacturerId": 1
+    },
+    {
+      "id": 15,
+      "name": "Q8",
+      "manufacturerId": 1
+    },
+    {
+      "id": 16,
+      "name": "e-tron GT",
+      "manufacturerId": 1
+    },
+    {
+      "id": 17,
+      "name": "Serije 1",
+      "manufacturerId": 2
+    },
+    {
+      "id": 17,
+      "name": "Serije 2",
+      "manufacturerId": 2
+    },
+    {
+      "id": 18,
+      "name": "Serije 3",
+      "manufacturerId": 2
+    },
+    {
+      "id": 19,
+      "name": "Serije 4",
+      "manufacturerId": 2
+    },
+    {
+      "id": 20,
+      "name": "Serije 5",
+      "manufacturerId": 2
+    },
+    {
+      "id": 21,
+      "name": "Serije 6",
+      "manufacturerId": 2
+    },
+    {
+      "id": 22,
+      "name": "Serije 7",
+      "manufacturerId": 2
+    },
+    {
+      "id": 23,
+      "name": "Serije 8",
+      "manufacturerId": 2
+    },
+    {
+      "id": 24,
+      "name": "X1",
+      "manufacturerId": 2
+    },
+    {
+      "id": 25,
+      "name": "X3",
+      "manufacturerId": 2
+    },
+    {
+      "id": 26,
+      "name": "X4",
+      "manufacturerId": 2
+    },
+    {
+      "id": 27,
+      "name": "X5",
+      "manufacturerId": 2
+    },
+    {
+      "id": 28,
+      "name": "X6",
+      "manufacturerId": 2
+    },
+    {
+      "id": 29,
+      "name": "X7",
+      "manufacturerId": 2
+    },
+    {
+      "id": 30,
+      "name": "M3",
+      "manufacturerId": 2
+    },
+    {
+      "id": 31,
+      "name": "M5",
+      "manufacturerId": 2
+    },
+    {
+      "id": 32,
+      "name": "Z4",
+      "manufacturerId": 2
+    },
+    {
+      "id": 33,
+      "name": "X6M",
+      "manufacturerId": 2
+    },
+    {
+      "id": 34,
+      "name": "C Klasa",
+      "manufacturerId": 3
+    },
+    {
+      "id": 35,
+      "name": "E Klasa",
+      "manufacturerId": 3
+    },
+    {
+      "id": 36,
+      "name": "S Klasa",
+      "manufacturerId": 3
+    },
+    {
+      "id": 37,
+      "name": "A Klasa",
+      "manufacturerId": 3
+    },
+    {
+      "id": 38,
+      "name": "CLA",
+      "manufacturerId": 3
+    },
+    {
+      "id": 39,
+      "name": "CLS",
+      "manufacturerId": 3
+    },
+    {
+      "id": 40,
+      "name": "CLA Shooting Break",
+      "manufacturerId": 3
+    },
+    {
+      "id": 41,
+      "name": "CLS Shooting Break",
+      "manufacturerId": 3
+    },
+    {
+      "id": 42,
+      "name": "GLC",
+      "manufacturerId": 3
+    },
+    {
+      "id": 43,
+      "name": "SLK",
+      "manufacturerId": 3
+    },
+    {
+      "id": 44,
+      "name": "ML",
+      "manufacturerId": 3
+    },
+    {
+      "id": 45,
+      "name": "GLE",
+      "manufacturerId": 3
+    },
+    {
+      "id": 46,
+      "name": "Polo",
+      "manufacturerId": 4
+    },
+    {
+      "id": 47,
+      "name": "Golf",
+      "manufacturerId": 4
+    },
+    {
+      "id": 48,
+      "name": "Scirocco",
+      "manufacturerId": 4
+    },
+    {
+      "id": 49,
+      "name": "Passat",
+      "manufacturerId": 4
+    },
+    {
+      "id": 50,
+      "name": "Passat CC",
+      "manufacturerId": 4
+    },
+    {
+      "id": 51,
+      "name": "Arteon",
+      "manufacturerId": 4
+    },
+    {
+      "id": 52,
+      "name": "Tiguan",
+      "manufacturerId": 4
+    },
+    {
+      "id": 53,
+      "name": "Touareg",
+      "manufacturerId": 4
+    },
+    {
+      "id": 54,
+      "name": "T Cross",
+      "manufacturerId": 4
+    },
+    {
+      "id": 55,
+      "name": "T Rok",
+      "manufacturerId": 4
+    },
+    {
+      "id": 56,
+      "name": "Touran",
+      "manufacturerId": 4
+    },
+    {
+      "id": 57,
+      "name": "Sharan",
+      "manufacturerId": 4
+    },
+    {
+      "id": 58,
+      "name": "Beetle",
+      "manufacturerId": 4
+    },
+    {
+      "id": 59,
+      "name": "Phaeton",
+      "manufacturerId": 4
+    },
+    {
+      "id": 60,
+      "name": "Eos",
+      "manufacturerId": 4
+    },
+    {
+      "id": 61,
+      "name": "Adam",
+      "manufacturerId": 5
+    },
+    {
+      "id": 62,
+      "name": "Corsa",
+      "manufacturerId": 5
+    },
+    {
+      "id": 63,
+      "name": "Astra",
+      "manufacturerId": 5
+    },
+    {
+      "id": 64,
+      "name": "Insignia",
+      "manufacturerId": 5
+    },
+    {
+      "id": 65,
+      "name": "Meriva",
+      "manufacturerId": 5
+    },
+    {
+      "id": 66,
+      "name": "Crossland X",
+      "manufacturerId": 5
+    },
+    {
+      "id": 67,
+      "name": "Zafira",
+      "manufacturerId": 5
+    },
+    {
+      "id": 68,
+      "name": "Tigra",
+      "manufacturerId": 5
+    },
+    {
+      "id": 69,
+      "name": "Grandland X",
+      "manufacturerId": 5
+    },
+    {
+      "id": 70,
+      "name": "Vectra",
+      "manufacturerId": 5
+    },
+    {
+      "id": 71,
+      "name": "C1",
+      "manufacturerId": 6
+    },
+    {
+      "id": 72,
+      "name": "C2",
+      "manufacturerId": 6
+    },
+    {
+      "id": 73,
+      "name": "C3",
+      "manufacturerId": 6
+    },
+    {
+      "id": 74,
+      "name": "C3 Picasso",
+      "manufacturerId": 6
+    },
+    {
+      "id": 75,
+      "name": "C4",
+      "manufacturerId": 6
+    },
+    {
+      "id": 76,
+      "name": "C4 Picasso",
+      "manufacturerId": 6
+    },
+    {
+      "id": 77,
+      "name": "C5",
+      "manufacturerId": 6
+    },
+    {
+      "id": 78,
+      "name": "C6",
+      "manufacturerId": 6
+    },
+    {
+      "id": 79,
+      "name": "C8",
+      "manufacturerId": 6
+    },
+    {
+      "id": 80,
+      "name": "Cactus",
+      "manufacturerId": 6
+    },
+    {
+      "id": 81,
+      "name": "DS3",
+      "manufacturerId": 6
+    },
+    {
+      "id": 82,
+      "name": "DS4",
+      "manufacturerId": 6
+    },
+    {
+      "id": 83,
+      "name": "DS5",
+      "manufacturerId": 6
+    },
+    {
+      "id": 84,
+      "name": "DS7",
+      "manufacturerId": 6
+    },
+    {
+      "id": 85,
+      "name": "Xsara",
+      "manufacturerId": 6
+    },
+    {
+      "id": 86,
+      "name": "Captur",
+      "manufacturerId": 8
+    },
+    {
+      "id": 87,
+      "name": "Clio",
+      "manufacturerId": 8
+    },
+    {
+      "id": 88,
+      "name": "Fluence",
+      "manufacturerId": 8
+    },
+    {
+      "id": 89,
+      "name": "Kadjar",
+      "manufacturerId": 8
+    },
+    {
+      "id": 90,
+      "name": "Koleos",
+      "manufacturerId": 8
+    },
+    {
+      "id": 91,
+      "name": "Laguna",
+      "manufacturerId": 8
+    },
+    {
+      "id": 92,
+      "name": "Megane",
+      "manufacturerId": 8
+    },
+    {
+      "id": 93,
+      "name": "Megane Conquest",
+      "manufacturerId": 8
+    },
+    {
+      "id": 94,
+      "name": "Scenic",
+      "manufacturerId": 8
+    },
+    {
+      "id": 95,
+      "name": "Talisman",
+      "manufacturerId": 8
+    },
+    {
+      "id": 96,
+      "name": "Thalia",
+      "manufacturerId": 8
+    },
+    {
+      "id": 97,
+      "name": "Twingo",
+      "manufacturerId": 8
+    },
+    {
+      "id": 98,
+      "name": "145",
+      "manufacturerId": 9
+    },
+    {
+      "id": 99,
+      "name": "146",
+      "manufacturerId": 9
+    },
+    {
+      "id": 100,
+      "name": "147",
+      "manufacturerId": 9
+    },
+    {
+      "id": 101,
+      "name": "149",
+      "manufacturerId": 9
+    },
+    {
+      "id": 102,
+      "name": "155",
+      "manufacturerId": 9
+    },
+    {
+      "id": 103,
+      "name": "156",
+      "manufacturerId": 9
+    },
+    {
+      "id": 104,
+      "name": "159",
+      "manufacturerId": 9
+    },
+    {
+      "id": 105,
+      "name": "164",
+      "manufacturerId": 9
+    },
+    {
+      "id": 106,
+      "name": "166",
+      "manufacturerId": 9
+    },
+    {
+      "id": 107,
+      "name": "Brera",
+      "manufacturerId": 9
+    },
+    {
+      "id": 108,
+      "name": "Giulia",
+      "manufacturerId": 9
+    },
+    {
+      "id": 109,
+      "name": "Giulietta",
+      "manufacturerId": 9
+    },
+    {
+      "id": 110,
+      "name": "MiTo",
+      "manufacturerId": 9
+    },
+    {
+      "id": 111,
+      "name": "Stelvio",
+      "manufacturerId": 9
+    },
+    {
+      "id": 112,
+      "name": "4C",
+      "manufacturerId": 9
+    },
+    {
+      "id": 113,
+      "name": "500",
+      "manufacturerId": 10
+    },
+    {
+      "id": 114,
+      "name": "Brava",
+      "manufacturerId": 10
+    },
+    {
+      "id": 115,
+      "name": "Bravo",
+      "manufacturerId": 10
+    },
+    {
+      "id": 116,
+      "name": "Grande Punto",
+      "manufacturerId": 10
+    },
+    {
+      "id": 117,
+      "name": "Panda",
+      "manufacturerId": 10
+    },
+    {
+      "id": 118,
+      "name": "Punto",
+      "manufacturerId": 10
+    },
+    {
+      "id": 119,
+      "name": "Stilo",
+      "manufacturerId": 10
+    },
+    {
+      "id": 120,
+      "name": "Tipo",
+      "manufacturerId": 10
+    },
+    {
+      "id": 121,
+      "name": "Uno",
+      "manufacturerId": 10
+    },
+    {
+      "id": 122,
+      "name": "Spider",
+      "manufacturerId": 10
+    },
+    {
+      "id": 123,
+      "name": "1007",
+      "manufacturerId": 7
+    },
+    {
+      "id": 124,
+      "name": "106",
+      "manufacturerId": 7
+    },
+    {
+      "id": 125,
+      "name": "107",
+      "manufacturerId": 7
+    },
+    {
+      "id": 126,
+      "name": "2008",
+      "manufacturerId": 7
+    },
+    {
+      "id": 127,
+      "name": "205",
+      "manufacturerId": 7
+    },
+    {
+      "id": 128,
+      "name": "206",
+      "manufacturerId": 7
+    },
+    {
+      "id": 129,
+      "name": "207",
+      "manufacturerId": 7
+    },
+    {
+      "id": 130,
+      "name": "208",
+      "manufacturerId": 7
+    },
+    {
+      "id": 131,
+      "name": "3008",
+      "manufacturerId": 7
+    },
+    {
+      "id": 132,
+      "name": "306",
+      "manufacturerId": 7
+    },
+    {
+      "id": 133,
+      "name": "307",
+      "manufacturerId": 7
+    },
+    {
+      "id": 134,
+      "name": "308",
+      "manufacturerId": 7
+    },
+    {
+      "id": 135,
+      "name": "4007",
+      "manufacturerId": 7
+    },
+    {
+      "id": 136,
+      "name": "406",
+      "manufacturerId": 7
+    },
+    {
+      "id": 137,
+      "name": "407",
+      "manufacturerId": 7
+    },
+    {
+      "id": 138,
+      "name": "5008",
+      "manufacturerId": 7
+    },
+    {
+      "id": 139,
+      "name": "508",
+      "manufacturerId": 7
+    },
+    {
+      "id": 140,
+      "name": "607",
+      "manufacturerId": 7
+    },
+    {
+      "id": 141,
+      "name": "807",
+      "manufacturerId": 7
+    },
+    {
+      "id": 142,
+      "name": "Boxer",
+      "manufacturerId": 7
+    },
+    {
+      "id": 143,
+      "name": "Expert",
+      "manufacturerId": 7
+    },
+    {
+      "id": 144,
+      "name": "Partner",
+      "manufacturerId": 7
+    },
+    {
+      "id": 145,
+      "name": "RCZ",
+      "manufacturerId": 7
+    },
+    {
+      "id": 146,
+      "name": "Rifter",
+      "manufacturerId": 7
+    },
+    {
+      "id": 132,
+      "name": "306",
+      "manufacturerId": 7
+    },
+    {
+      "id": 133,
+      "name": "Accent",
+      "manufacturerId": 11
+    },
+    {
+      "id": 134,
+      "name": "Elantra",
+      "manufacturerId": 11
+    },
+    {
+      "id": 135,
+      "name": "Galloper",
+      "manufacturerId": 11
+    },
+    {
+      "id": 136,
+      "name": "GetZ",
+      "manufacturerId": 11
+    },
+    {
+      "id": 137,
+      "name": "Grandeur",
+      "manufacturerId": 11
+    },
+    {
+      "id": 138,
+      "name": "H-1",
+      "manufacturerId": 11
+    },
+    {
+      "id": 139,
+      "name": "i10",
+      "manufacturerId": 11
+    },
+    {
+      "id": 140,
+      "name": "i20",
+      "manufacturerId": 11
+    },
+    {
+      "id": 141,
+      "name": "i30",
+      "manufacturerId": 11
+    },
+    {
+      "id": 142,
+      "name": "ix35",
+      "manufacturerId": 11
+    },
+    {
+      "id": 143,
+      "name": "Kona",
+      "manufacturerId": 11
+    },
+    {
+      "id": 144,
+      "name": "Santa Fe",
+      "manufacturerId": 11
+    },
+    {
+      "id": 145,
+      "name": "Sonata",
+      "manufacturerId": 11
+    },
+    {
+      "id": 146,
+      "name": "Terracan",
+      "manufacturerId": 11
+    },
+    {
+      "id": 147,
+      "name": "Tucson",
+      "manufacturerId": 11
+    },
+    {
+      "id": 148,
+      "name": "",
+      "manufacturerId": 12
+    },
+    {
+      "id": 149,
+      "name": "Carens",
+      "manufacturerId": 12
+    },
+    {
+      "id": 150,
+      "name": "Carnival",
+      "manufacturerId": 12
+    },
+    {
+      "id": 151,
+      "name": "Ceed",
+      "manufacturerId": 12
+    },
+    {
+      "id": 152,
+      "name": "Magentis",
+      "manufacturerId": 12
+    },
+    {
+      "id": 153,
+      "name": "Pro ceed",
+      "manufacturerId": 12
+    },
+    {
+      "id": 154,
+      "name": "Rio",
+      "manufacturerId": 12
+    },
+    {
+      "id": 155,
+      "name": "Sorento",
+      "manufacturerId": 12
+    },
+    {
+      "id": 156,
+      "name": "Sportage",
+      "manufacturerId": 12
+    },
+    {
+      "id": 157,
+      "name": "Stonic",
+      "manufacturerId": 12
+    },
+    {
+      "id": 158,
+      "name": "XCeed",
+      "manufacturerId": 12
+    },
+    {
+      "id": 159,
+      "name": "Actyon",
+      "manufacturerId": 13
+    },
+    {
+      "id": 160,
+      "name": "Korando",
+      "manufacturerId": 13
+    },
+    {
+      "id": 161,
+      "name": "Kyron",
+      "manufacturerId": 13
+    },
+    {
+      "id": 162,
+      "name": "MUSSO",
+      "manufacturerId": 13
+    },
+    {
+      "id": 163,
+      "name": "REXTON",
+      "manufacturerId": 13
+    },
+    {
+      "id": 164,
+      "name": "Rodius",
+      "manufacturerId": 13
+    },
+    {
+      "id": 165,
+      "name": "3",
+      "manufacturerId": 14
+    },
+    {
+      "id": 166,
+      "name": "323",
+      "manufacturerId": 14
+    },
+    {
+      "id": 167,
+      "name": "5",
+      "manufacturerId": 14
+    },
+    {
+      "id": 168,
+      "name": "6",
+      "manufacturerId": 14
+    },
+    {
+      "id": 169,
+      "name": "626",
+      "manufacturerId": 14
+    },
+    {
+      "id": 170,
+      "name": "CX-5",
+      "manufacturerId": 14
+    },
+    {
+      "id": 171,
+      "name": "CX-7",
+      "manufacturerId": 14
+    },
+    {
+      "id": 172,
+      "name": "MX-5",
+      "manufacturerId": 14
+    },
+    {
+      "id": 173,
+      "name": "Premacy",
+      "manufacturerId": 14
+    },
+    {
+      "id": 174,
+      "name": "RX-7",
+      "manufacturerId": 14
+    },
+    {
+      "id": 175,
+      "name": "RX-8",
+      "manufacturerId": 14
+    },
+    {
+      "id": 176,
+      "name": "Tribute",
+      "manufacturerId": 14
+    },
+    {
+      "id": 177,
+      "name": "ASX",
+      "manufacturerId": 15
+    },
+    {
+      "id": 178,
+      "name": "Carisma",
+      "manufacturerId": 15
+    },
+    {
+      "id": 179,
+      "name": "Colt",
+      "manufacturerId": 15
+    },
+    {
+      "id": 180,
+      "name": "Eclipse",
+      "manufacturerId": 15
+    },
+    {
+      "id": 181,
+      "name": "L200",
+      "manufacturerId": 15
+    },
+    {
+      "id": 182,
+      "name": "Lancer",
+      "manufacturerId": 15
+    },
+    {
+      "id": 183,
+      "name": "Outlander",
+      "manufacturerId": 15
+    },
+    {
+      "id": 184,
+      "name": "Pajero",
+      "manufacturerId": 15
+    },
+    {
+      "id": 185,
+      "name": "Space Star",
+      "manufacturerId": 15
+    },
+    {
+      "id": 186,
+      "name": "Tredia",
+      "manufacturerId": 15
+    },
+    {
+      "id": 187,
+      "name": "4-Runner",
+      "manufacturerId": 16
+    },
+    {
+      "id": 188,
+      "name": "Auris",
+      "manufacturerId": 16
+    },
+    {
+      "id": 189,
+      "name": "Avensis",
+      "manufacturerId": 16
+    },
+    {
+      "id": 190,
+      "name": "Aygo",
+      "manufacturerId": 16
+    },
+    {
+      "id": 191,
+      "name": "C-HR",
+      "manufacturerId": 16
+    },
+    {
+      "id": 192,
+      "name": "Corolla",
+      "manufacturerId": 16
+    },
+    {
+      "id": 193,
+      "name": "Hilux",
+      "manufacturerId": 16
+    },
+    {
+      "id": 194,
+      "name": "IQ",
+      "manufacturerId": 16
+    },
+    {
+      "id": 195,
+      "name": "Land Cruiser",
+      "manufacturerId": 16
+    },
+    {
+      "id": 196,
+      "name": "Prius",
+      "manufacturerId": 16
+    },
+    {
+      "id": 197,
+      "name": "RAV 4",
+      "manufacturerId": 16
+    },
+    {
+      "id": 198,
+      "name": "Supra",
+      "manufacturerId": 16
+    },
+    {
+      "id": 199,
+      "name": "Verso",
+      "manufacturerId": 16
+    },
+    {
+      "id": 200,
+      "name": "Yaris",
+      "manufacturerId": 16
+    },
+    {
+      "id": 201,
+      "name": "Alto",
+      "manufacturerId": 17
+    },
+    {
+      "id": 202,
+      "name": "Grand Vitara",
+      "manufacturerId": 17
+    },
+    {
+      "id": 203,
+      "name": "Ignis",
+      "manufacturerId": 17
+    },
+    {
+      "id": 204,
+      "name": "Jimny",
+      "manufacturerId": 17
+    },
+    {
+      "id": 205,
+      "name": "SJ Samurai",
+      "manufacturerId": 17
+    },
+    {
+      "id": 206,
+      "name": "Swift",
+      "manufacturerId": 17
+    },
+    {
+      "id": 207,
+      "name": "SX4",
+      "manufacturerId": 17
+    },
+    {
+      "id": 208,
+      "name": "SX4 S-Cross",
+      "manufacturerId": 17
+    },
+    {
+      "id": 209,
+      "name": "Vitara",
+      "manufacturerId": 17
+    },
+    {
+      "id": 210,
+      "name": "Wagon R+",
+      "manufacturerId": 17
+    },
+    {
+      "id": 211,
+      "name": "Alhambra",
+      "manufacturerId": 18
+    },
+    {
+      "id": 212,
+      "name": "Altea",
+      "manufacturerId": 18
+    },
+    {
+      "id": 213,
+      "name": "Ateca",
+      "manufacturerId": 18
+    },
+    {
+      "id": 214,
+      "name": "Cordoba",
+      "manufacturerId": 18
+    },
+    {
+      "id": 215,
+      "name": "Exeo",
+      "manufacturerId": 18
+    },
+    {
+      "id": 216,
+      "name": "Ibiza",
+      "manufacturerId": 18
+    },
+    {
+      "id": 217,
+      "name": "Leon",
+      "manufacturerId": 18
+    },
+    {
+      "id": 218,
+      "name": "Mii",
+      "manufacturerId": 18
+    },
+    {
+      "id": 219,
+      "name": "Toledo",
+      "manufacturerId": 18
+    },
+    {
+      "id": 220,
+      "name": "Ateca",
+      "manufacturerId": 19
+    },
+    {
+      "id": 221,
+      "name": "Formento",
+      "manufacturerId": 19
+    },
+    {
+      "id": 222,
+      "name": "Leon",
+      "manufacturerId": 19
+    },
+    {
+      "id": 223,
+      "name": "105",
+      "manufacturerId": 20
+    },
+    {
+      "id": 224,
+      "name": "Citigo",
+      "manufacturerId": 20
+    },
+    {
+      "id": 225,
+      "name": "Fabia",
+      "manufacturerId": 20
+    },
+    {
+      "id": 226,
+      "name": "Felicia",
+      "manufacturerId": 20
+    },
+    {
+      "id": 227,
+      "name": "Karoq",
+      "manufacturerId": 20
+    },
+    {
+      "id": 228,
+      "name": "Kodiaq",
+      "manufacturerId": 20
+    },
+    {
+      "id": 229,
+      "name": "Octavia",
+      "manufacturerId": 20
+    },
+    {
+      "id": 230,
+      "name": "Rapid",
+      "manufacturerId": 20
+    },
+    {
+      "id": 231,
+      "name": "Roomster",
+      "manufacturerId": 20
+    },
+    {
+      "id": 232,
+      "name": "Superb",
+      "manufacturerId": 20
+    },
+    {
+      "id": 233,
+      "name": "Yeti",
+      "manufacturerId": 20
+    },
+    {
+      "id": 234,
+      "name": "Alero",
+      "manufacturerId": 21
+    },
+    {
+      "id": 235,
+      "name": "Astro",
+      "manufacturerId": 21
+    },
+    {
+      "id": 236,
+      "name": "Aveo",
+      "manufacturerId": 21
+    },
+    {
+      "id": 237,
+      "name": "Blazer",
+      "manufacturerId": 21
+    },
+    {
+      "id": 238,
+      "name": "Camaro",
+      "manufacturerId": 21
+    },
+    {
+      "id": 239,
+      "name": "Captiva",
+      "manufacturerId": 21
+    },
+    {
+      "id": 240,
+      "name": "Colorado",
+      "manufacturerId": 21
+    },
+    {
+      "id": 241,
+      "name": "Corvette",
+      "manufacturerId": 21
+    },
+    {
+      "id": 242,
+      "name": "Cruze",
+      "manufacturerId": 21
+    },
+    {
+      "id": 243,
+      "name": "Epica",
+      "manufacturerId": 21
+    },
+    {
+      "id": 244,
+      "name": "Impala",
+      "manufacturerId": 21
+    },
+    {
+      "id": 245,
+      "name": "Matiz",
+      "manufacturerId": 21
+    },
+    {
+      "id": 246,
+      "name": "Orlando",
+      "manufacturerId": 21
+    },
+    {
+      "id": 247,
+      "name": "Spark",
+      "manufacturerId": 21
+    },
+    {
+      "id": 248,
+      "name": "Suburban",
+      "manufacturerId": 21
+    },
+    {
+      "id": 249,
+      "name": "Tacuma",
+      "manufacturerId": 21
+    },
+    {
+      "id": 250,
+      "name": "Volt",
+      "manufacturerId": 21
+    },
+    {
+      "id": 251,
+      "name": "Challenger",
+      "manufacturerId": 22
+    },
+    {
+      "id": 252,
+      "name": "Caliber",
+      "manufacturerId": 22
+    },
+    {
+      "id": 253,
+      "name": "Charger",
+      "manufacturerId": 22
+    },
+    {
+      "id": 254,
+      "name": "Dakota",
+      "manufacturerId": 22
+    },
+    {
+      "id": 255,
+      "name": "Durango",
+      "manufacturerId": 22
+    },
+    {
+      "id": 256,
+      "name": "Journey",
+      "manufacturerId": 22
+    },
+    {
+      "id": 257,
+      "name": "Magnum",
+      "manufacturerId": 22
+    },
+    {
+      "id": 258,
+      "name": "Neon",
+      "manufacturerId": 22
+    },
+    {
+      "id": 259,
+      "name": "Nitro",
+      "manufacturerId": 22
+    },
+    {
+      "id": 260,
+      "name": "RAM",
+      "manufacturerId": 22
+    },
+    {
+      "id": 261,
+      "name": "Stealth",
+      "manufacturerId": 22
+    },
+    {
+      "id": 262,
+      "name": "Viper",
+      "manufacturerId": 22
+    },
+    {
+      "id": 263,
+      "name": "300 M",
+      "manufacturerId": 23
+    },
+    {
+      "id": 264,
+      "name": "300C",
+      "manufacturerId": 23
+    },
+    {
+      "id": 265,
+      "name": "Crossfire",
+      "manufacturerId": 23
+    },
+    {
+      "id": 266,
+      "name": "Daytona",
+      "manufacturerId": 23
+    },
+    {
+      "id": 267,
+      "name": "Pacifica",
+      "manufacturerId": 23
+    },
+    {
+      "id": 268,
+      "name": "PT Cruiser",
+      "manufacturerId": 23
+    },
+    {
+      "id": 269,
+      "name": "Sebring",
+      "manufacturerId": 23
+    },
+    {
+      "id": 270,
+      "name": "Stratus",
+      "manufacturerId": 23
+    },
+    {
+      "id": 271,
+      "name": "Voyager",
+      "manufacturerId": 23
+    },
+    {
+      "id": 272,
+      "name": "Cherokee",
+      "manufacturerId": 24
+    },
+    {
+      "id": 273,
+      "name": "Commander",
+      "manufacturerId": 24
+    },
+    {
+      "id": 274,
+      "name": "Compass",
+      "manufacturerId": 24
+    },
+    {
+      "id": 275,
+      "name": "Grand Cherokee",
+      "manufacturerId": 24
+    },
+    {
+      "id": 276,
+      "name": "Patriot",
+      "manufacturerId": 24
+    },
+    {
+      "id": 277,
+      "name": "Renegade",
+      "manufacturerId": 24
+    },
+    {
+      "id": 278,
+      "name": "Wrangler",
+      "manufacturerId": 24
+    },
+    {
+      "id": 279,
+      "name": "B-Max",
+      "manufacturerId": 25
+    },
+    {
+      "id": 280,
+      "name": "C-Max",
+      "manufacturerId": 25
+    },
+    {
+      "id": 281,
+      "name": "Capri",
+      "manufacturerId": 25
+    },
+    {
+      "id": 282,
+      "name": "Edge",
+      "manufacturerId": 25
+    },
+    {
+      "id": 283,
+      "name": "Escort",
+      "manufacturerId": 25
+    },
+    {
+      "id": 284,
+      "name": "Explorer",
+      "manufacturerId": 25
+    },
+    {
+      "id": 285,
+      "name": "Fiesta",
+      "manufacturerId": 25
+    },
+    {
+      "id": 286,
+      "name": "Focus",
+      "manufacturerId": 25
+    },
+    {
+      "id": 287,
+      "name": "Fusion",
+      "manufacturerId": 25
+    },
+    {
+      "id": 288,
+      "name": "Galaxy",
+      "manufacturerId": 25
+    },
+    {
+      "id": 289,
+      "name": "GT",
+      "manufacturerId": 25
+    },
+    {
+      "id": 290,
+      "name": "Ka",
+      "manufacturerId": 25
+    },
+    {
+      "id": 291,
+      "name": "Kuga",
+      "manufacturerId": 25
+    },
+    {
+      "id": 292,
+      "name": "Mondeo",
+      "manufacturerId": 25
+    },
+    {
+      "id": 293,
+      "name": "Mustang",
+      "manufacturerId": 25
+    },
+    {
+      "id": 294,
+      "name": "Orion",
+      "manufacturerId": 25
+    },
+    {
+      "id": 295,
+      "name": "Puma",
+      "manufacturerId": 25
+    },
+    {
+      "id": 296,
+      "name": "Ranger",
+      "manufacturerId": 25
+    },
+    {
+      "id": 297,
+      "name": "S-Max",
+      "manufacturerId": 25
+    },
+    {
+      "id": 298,
+      "name": "Taunus",
+      "manufacturerId": 25
+    },
+    {
+      "id": 299,
+      "name": "Transit",
+      "manufacturerId": 25
+    },
+    {
+      "id": 300,
+      "name": "Defender",
+      "manufacturerId": 26
+    },
+    {
+      "id": 301,
+      "name": "Discovery",
+      "manufacturerId": 26
+    },
+    {
+      "id": 302,
+      "name": "Freelander",
+      "manufacturerId": 26
+    },
+    {
+      "id": 303,
+      "name": "Range Rover",
+      "manufacturerId": 26
+    },
+    {
+      "id": 304,
+      "name": "Range Rover Sport",
+      "manufacturerId": 26
+    },
+    {
+      "id": 305,
+      "name": "Serie I",
+      "manufacturerId": 26
+    },
+    {
+      "id": 306,
+      "name": "Serie II",
+      "manufacturerId": 26
+    },
+    {
+      "id": 307,
+      "name": "Serie III",
+      "manufacturerId": 26
+    },
+    {
+      "id": 308,
+      "name": "Daimler",
+      "manufacturerId": 27
+    },
+    {
+      "id": 309,
+      "name": "F-Pace",
+      "manufacturerId": 27
+    },
+    {
+      "id": 310,
+      "name": "F-Type",
+      "manufacturerId": 27
+    },
+    {
+      "id": 311,
+      "name": "S-Type",
+      "manufacturerId": 27
+    },
+    {
+      "id": 312,
+      "name": "X-Type",
+      "manufacturerId": 27
+    },
+    {
+      "id": 313,
+      "name": "XE",
+      "manufacturerId": 27
+    },
+    {
+      "id": 314,
+      "name": "XF",
+      "manufacturerId": 27
+    },
+    {
+      "id": 315,
+      "name": "XJ",
+      "manufacturerId": 27
+    },
+    {
+      "id": 316,
+      "name": "XJR",
+      "manufacturerId": 27
+    },
+    {
+      "id": 317,
+      "name": "XJS",
+      "manufacturerId": 27
+    },
+    {
+      "id": 318,
+      "name": "XKR",
+      "manufacturerId": 27
+    },
+    {
+      "id": 319,
+      "name": "110",
+      "manufacturerId": 28
+    },
+    {
+      "id": 320,
+      "name": "1200",
+      "manufacturerId": 28
+    },
+    {
+      "id": 321,
+      "name": "2107",
+      "manufacturerId": 28
+    },
+    {
+      "id": 322,
+      "name": "Aleko",
+      "manufacturerId": 28
+    },
+    {
+      "id": 323,
+      "name": "Forma",
+      "manufacturerId": 28
+    },
+    {
+      "id": 324,
+      "name": "Kalina",
+      "manufacturerId": 28
+    },
+    {
+      "id": 325,
+      "name": "Niva",
+      "manufacturerId": 28
+    },
+    {
+      "id": 326,
+      "name": "Nova",
+      "manufacturerId": 28
+    },
+    {
+      "id": 327,
+      "name": "Samara",
+      "manufacturerId": 28
+    },
+    {
+      "id": 328,
+      "name": "7",
+      "manufacturerId": 29
+    },
+    {
+      "id": 329,
+      "name": "Yugo 45",
+      "manufacturerId": 29
+    },
+    {
+      "id": 330,
+      "name": "Zastava 101 - Kec",
+      "manufacturerId": 29
+    },
+    {
+      "id": 331,
+      "name": "Zastava 128 - Osmica",
+      "manufacturerId": 29
+    },
+    {
+      "id": 332,
+      "name": "Zastava 750 - Fićo",
+      "manufacturerId": 29
+    },
+    {
+      "id": 333,
+      "name": "911",
+      "manufacturerId": 30
+    },
+    {
+      "id": 334,
+      "name": "924",
+      "manufacturerId": 30
+    },
+    {
+      "id": 335,
+      "name": "997",
+      "manufacturerId": 30
+    },
+    {
+      "id": 336,
+      "name": "Carrera GT",
+      "manufacturerId": 30
+    },
+    {
+      "id": 337,
+      "name": "Cayenne",
+      "manufacturerId": 30
+    },
+    {
+      "id": 338,
+      "name": "Cayman",
+      "manufacturerId": 30
+    },
+    {
+      "id": 339,
+      "name": "Macan",
+      "manufacturerId": 30
+    },
+    {
+      "id": 340,
+      "name": "Panamera",
+      "manufacturerId": 30
+    },
+    {
+      "id": 341,
+      "name": "Taycan",
+      "manufacturerId": 30
+    },
+    {
+      "id": 342,
+      "name": "Taycan Cross Turismo",
+      "manufacturerId": 30
+    },
+    {
+      "id": 343,
+      "name": "BLS",
+      "manufacturerId": 31
+    },
+    {
+      "id": 343,
+      "name": "Deville",
+      "manufacturerId": 31
+    },
+    {
+      "id": 343,
+      "name": "Escalade",
+      "manufacturerId": 31
+    },
+    {
+      "id": 343,
+      "name": "Seville",
+      "manufacturerId": 31
+    },
+    {
+      "id": 344,
+      "name": "Sviante",
+      "manufacturerId": 31
+    },
+    {
+      "id": 345,
+      "name": "XLR",
+      "manufacturerId": 31
+    }
+  ],
+  "ads": [
+    {
+      "color": "Crna",
+      "description": "NA PRODAJU VW PASSAT B8 R LINE VIRTUAL COCKPIT .PANORAMA KROV.KAMERA.XENON.BI XENON.LED.NAVIGACIJA.TEMPOMAT.START STOP.POKRETANJE VOZILA BEZ KLJUCA.GRIJANJE SJEDISTA.LED AMBIJENT .FULL SERVISNA ISTORIJA I VW .VOZILO REDOVNO SERVISIRANO.FABRICKI LAK.EURO 6 .NAVEDENA CJENA ISKLJUCIVO ZA KEŠ .D.O.O AUTO HASANOVIC  ŽIVINICE 062 982 384 VLASNIK",
+      "doors": "4/5",
+      "emissionStandard": "Euro 6",
+      "gears": "6+R",
+      "lights": "Xenon",
+      "parkingCamera": "Zadnja",
+      "rimSize": 17,
+      "tyres": "Zimske",
+      "title": "VW PASSAT B8 R LINE VIRTUAL COCKPIT",
+      "manufacturerId": 4,
+      "modelId": 49,
+      "price": 36950,
+      "year": 2016,
+      "mileage": 177000,
+      "volume": 1.6,
+      "horsepower": 120,
+      "car_typeId": 1,
+      "fuel_typeId": 2,
+      "drive_typeId": 1,
+      "transmission": "Manuelni",
+      "lowestPrice": 35000,
+      "registrationUntil": "2023-01",
+      "dateCreated": "5.4.2022.",
+      "images": [
+        {
+          "id": 2,
+          "src64": "https://s9.pik.ba/galerija/2022-05/11/06/slika-502636-627be6d89b1b1-velika.jpg",
+          "adId": 1
+        },
+        {
+          "id": 3,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-62798c4622515-velika.jpg",
+          "adId": 1
+        },
+        {
+          "id": 4,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627940d7abf36-velika.jpg",
+          "adId": 1
+        },
+        {
+          "id": 5,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-62798c976ae84-velika.jpg",
+          "adId": 1
+        },
+        {
+          "id": 6,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-62793a834b809-velika.jpg",
+          "adId": 1
+        },
+        {
+          "id": 7,
+          "src64": "https://s9.pik.ba/galerija/2022-04/27/12/slika-502636-62686ed6ef652-velika.jpg",
+          "adId": 1
+        },
+        {
+          "id": 8,
+          "src64": "https://s9.pik.ba/galerija/2022-04/27/12/slika-502636-62686ec5ee5c3-velika.jpg",
+          "adId": 1
+        },
+        {
+          "id": 9,
+          "src64": "https://s9.pik.ba/galerija/2022-04/27/12/slika-502636-62686efb6ab35-velika.jpg",
+          "adId": 1
+        },
+        {
+          "id": 10,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-6279399cdbc82-velika.jpg",
+          "adId": 1
+        },
+        {
+          "id": 11,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627939d9adba6-velika.jpg",
+          "adId": 1
+        },
+        {
+          "id": 12,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-62793a252a53e-velika.jpg",
+          "adId": 1
+        },
+        {
+          "id": 13,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627940980424e-velika.jpg",
+          "adId": 1
+        },
+        {
+          "id": 14,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627940b16d265-velika.jpg",
+          "adId": 1
+        },
+        {
+          "id": 15,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627940bf94e74-velika.jpg",
+          "adId": 1
+        },
+        {
+          "id": 16,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627940f18273c-velika.jpg",
+          "adId": 1
+        },
+        {
+          "id": 17,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627941035febe-velika.jpg",
+          "adId": 1
+        },
+        {
+          "id": 18,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627941ab6d58a-velika.jpg",
+          "adId": 1
+        },
+        {
+          "id": 19,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-62798ccb547a9-velika.jpg",
+          "adId": 1
+        },
+        {
+          "id": 20,
+          "src64": "https://s9.pik.ba/galerija/2022-05/11/06/slika-502636-627be728ca58a-velika.jpg",
+          "adId": 1
+        },
+        {
+          "id": 21,
+          "src64": "https://s9.pik.ba/galerija/2022-05/11/06/slika-502636-627be76126731-velika.jpg",
+          "adId": 1
+        },
+        {
+          "id": 22,
+          "src64": "https://s9.pik.ba/galerija/2022-05/12/07/slika-502636-627d42787e2ec-velika.jpg",
+          "adId": 1
+        },
+        {
+          "id": 23,
+          "src64": "https://s9.pik.ba/galerija/2022-05/13/03/slika-502636-627e589821a5b-velika.jpg",
+          "adId": 1
+        }
+      ],
+      "sold": false,
+      "id": 1,
+      "manufacturer": {
+        "id": 4,
+        "name": "Volkswagen",
+        "countryId": 1
+      },
+      "model": {
+        "id": 49,
+        "name": "Passat",
+        "manufacturerId": 4
+      },
+      "car_type": {
+        "id": 1,
+        "type": "Limuzina"
+      },
+      "fuel_type": {
+        "id": 2,
+        "type": "Dizel"
+      },
+      "drive_type": {
+        "id": 1,
+        "type": "Prednji"
+      }
+    },
+    {
+      "color": "Siva",
+      "description": "NA PRODAJU VW GOLF 7 1.6 81KW CR BLUEMOTION EURO 6 .KAMERA .NAVIGACIJA.MF VOLAN.LED AMBIJENT.TEMPOMAT.PARKING SENZORI .PARK PILOT.START STOP GRIJANJE SJEDISTA.ABS.ESP.KLIMA .4 X EL PODIZACI.DUPLI KLJUCEVI.FABRICKI LAK.VOZILO REDOVNO SERVISIRANO U OVLASTENOM SERVISU.PLACENO SVE DO REGISTRACIJE.DOZVOLJEN SVAKI VID PROVJERE.D.O.O AUTO HASANOVIĆ ŽIVINICE 062 982 384 VLASNIK",
+      "doors": "4/5",
+      "emissionStandard": "Euro 6",
+      "gears": "5+R",
+      "lights": "Xenon",
+      "parkingCamera": "Zadnja",
+      "rimSize": 17,
+      "tyres": "Zimske",
+      "title": "VW GOLF 7 2016 81KW HIGHLINE",
+      "manufacturerId": 4,
+      "modelId": 47,
+      "price": 20750,
+      "year": 2016,
+      "mileage": 221000,
+      "volume": 1.6,
+      "horsepower": 110,
+      "car_typeId": 3,
+      "fuel_typeId": 2,
+      "drive_typeId": 1,
+      "transmission": "Manuelni",
+      "lowestPrice": 19000,
+      "registrationUntil": "2023-01",
+      "dateCreated": "5.4.2022.",
+      "images": [
+        {
+          "id": 24,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932888752e-velika.jpg",
+          "adId": 2
+        },
+        {
+          "id": 25,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627933974b8fb-velika.jpg",
+          "adId": 2
+        },
+        {
+          "id": 26,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932afca4ab-velika.jpg",
+          "adId": 2
+        },
+        {
+          "id": 27,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/01/slika-502636-6278fe39ba33e-velika.jpg",
+          "adId": 2
+        },
+        {
+          "id": 28,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932a03958c-velika.jpg",
+          "adId": 2
+        },
+        {
+          "id": 29,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932c1eca02-velika.jpg",
+          "adId": 2
+        },
+        {
+          "id": 30,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932cf3f1e8-velika.jpg",
+          "adId": 2
+        },
+        {
+          "id": 31,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932d9d8626-velika.jpg",
+          "adId": 2
+        },
+        {
+          "id": 32,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932e945089-velika.jpg",
+          "adId": 2
+        },
+        {
+          "id": 33,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932fc28747-velika.jpg",
+          "adId": 2
+        },
+        {
+          "id": 34,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-6279330aa41af-velika.jpg",
+          "adId": 2
+        },
+        {
+          "id": 35,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-6279332b3a2f2-velika.jpg",
+          "adId": 2
+        },
+        {
+          "id": 36,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627933469af48-velika.jpg",
+          "adId": 2
+        },
+        {
+          "id": 37,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-6279336255ed4-velika.jpg",
+          "adId": 2
+        },
+        {
+          "id": 38,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-62798272bf368-velika.jpg",
+          "adId": 2
+        },
+        {
+          "id": 39,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-6279827cdbe74-velika.jpg",
+          "adId": 2
+        },
+        {
+          "id": 40,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-627989821afaa-velika.jpg",
+          "adId": 2
+        },
+        {
+          "id": 41,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-627989bcbf8b0-velika.jpg",
+          "adId": 2
+        },
+        {
+          "id": 42,
+          "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-627989ec29341-velika.jpg",
+          "adId": 2
+        },
+        {
+          "id": 43,
+          "src64": "https://s9.pik.ba/galerija/2022-05/13/06/slika-502636-627e83983a95e-velika.jpg",
+          "adId": 2
+        }
+      ],
+      "sold": false,
+      "id": 2,
+      "manufacturer": {
+        "id": 4,
+        "name": "Volkswagen",
+        "countryId": 1
+      },
+      "model": {
+        "id": 47,
+        "name": "Golf",
+        "manufacturerId": 4
+      },
+      "car_type": {
+        "id": 3,
+        "type": "Karavan"
+      },
+      "fuel_type": {
+        "id": 2,
+        "type": "Dizel"
+      },
+      "drive_type": {
+        "id": 1,
+        "type": "Prednji"
+      }
+    },
+    {
+      "color": "Siva",
+      "description": "PLACENO SVE DO REGISTRACIJE 062 982 384 VLASNIK",
+      "doors": "4/5",
+      "emissionStandard": "Euro 6",
+      "gears": "5+R",
+      "lights": "LED",
+      "parkingCamera": "Zadnja",
+      "rimSize": 17,
+      "tyres": "Ljetne",
+      "title": "VW GOLF 7 HIGHLINE 2018",
+      "manufacturerId": 4,
+      "modelId": 47,
+      "price": 29900,
+      "year": 2018,
+      "mileage": 181000,
+      "volume": 1.6,
+      "horsepower": 115,
+      "car_typeId": 2,
+      "fuel_typeId": 2,
+      "drive_typeId": 1,
+      "transmission": "Manuelni",
+      "lowestPrice": 28000,
+      "registrationUntil": "2023-01",
+      "dateCreated": "2022-05-14",
+      "sold": false,
+      "id": 3,
+      "manufacturer": {
+        "id": 4,
+        "name": "Volkswagen",
+        "countryId": 1
+      },
+      "model": {
+        "id": 47,
+        "name": "Golf",
+        "manufacturerId": 4
+      },
+      "car_type": {
+        "id": 2,
+        "type": "Malo auto"
+      },
+      "fuel_type": {
+        "id": 2,
+        "type": "Dizel"
+      },
+      "drive_type": {
+        "id": 1,
+        "type": "Prednji"
+      }
+    },
+    {
+      "color": "Siva",
+      "description": "NA PRODAJU MERCEDES BENZ A 180 D 7 G TRONIC SPORT PAKET .LED.NAVIGACIJA.XENON.F1 ŠALTANJE..EL RETROVIZORI NA PREKLAPANJE.FABRICKI LAK.SERVISNA KNJIGA DUPLI KLJUCEVI.DOZVOLJEN SVAKI VID PROVJERE..D.O.O AUTO HASANOVIĆ ŽIVINICE 062 982 384 VLASNIK",
+      "doors": "4/5",
+      "emissionStandard": "Euro 6",
+      "gears": "7+R",
+      "lights": "LED",
+      "parkingCamera": "Zadnja",
+      "rimSize": 17,
+      "tyres": "Zimske",
+      "title": "Mercedes-Benz A 180 D SPORT PAKET 7G",
+      "manufacturerId": 3,
+      "modelId": 37,
+      "price": 33950,
+      "year": 2017,
+      "mileage": 199000,
+      "volume": 1.5,
+      "horsepower": 120,
+      "car_typeId": 2,
+      "fuel_typeId": 2,
+      "drive_typeId": 1,
+      "transmission": "Automatik",
+      "lowestPrice": 30000,
+      "registrationUntil": "2023-4",
+      "dateCreated": "2022-05-14",
+      "images": [],
+      "sold": false,
+      "id": 4
+    },
+    {
+      "color": "Plava",
+      "description": "NA PRODAJU VW PASSAT B8 R LINE. VOZILO STIGLO NA TOCKOVIMA. PLACENO SVE DO REGISTRACIJE. D.O.O AUTO HASANOVIĆ ŽIVINICE 062 982 384 VLASNIK",
+      "doors": "4/5",
+      "emissionStandard": "Euro 6",
+      "gears": "6+R",
+      "lights": "LED",
+      "parkingCamera": "Prednja i zadnja",
+      "rimSize": 17,
+      "tyres": "Zimske",
+      "title": "VW PASSAT B8 R LINE",
+      "manufacturerId": 4,
+      "modelId": 49,
+      "price": 33950,
+      "year": 2015,
+      "mileage": 247000,
+      "volume": 1.6,
+      "horsepower": 120,
+      "car_typeId": 3,
+      "fuel_typeId": 2,
+      "drive_typeId": 1,
+      "transmission": "Manuelni",
+      "lowestPrice": 30000,
+      "registrationUntil": "2023-01",
+      "dateCreated": "2022-05-15",
+      "images": [],
+      "sold": false,
+      "id": 5
+    },
+    {
+      "color": "Crna",
+      "description": "NA PRODAJU VW PASSAT B8 EURO 6.LED.XENON.BI XENON.NAVIGACIJA.START STOP.POKRETANJE VOZILA BEZ KLJUCA.FABRICKI LAK .VOZILO REDOVNO SERVISIRANO U OVLAŠTENOM VW SERVISU.DOZVOLJEN SVAKI VID PROVJERE.D.O.O AUTO HASANOVIĆ ŽIVINICE 062 982 384 VLASNIK.",
+      "doors": "4/5",
+      "emissionStandard": "Euro 6",
+      "gears": "6+R",
+      "lights": "Xenon",
+      "parkingCamera": "Zadnja",
+      "rimSize": 17,
+      "tyres": "Zimske",
+      "title": "VW PASSAT B8 LED NAVI XENON",
+      "manufacturerId": 4,
+      "modelId": 49,
+      "price": 26400,
+      "year": 2015,
+      "mileage": 189600,
+      "volume": 1.6,
+      "horsepower": 120,
+      "car_typeId": 3,
+      "fuel_typeId": 2,
+      "drive_typeId": 1,
+      "transmission": "Manuelni",
+      "lowestPrice": 24000,
+      "registrationUntil": "2023-01",
+      "dateCreated": "2022-05-15",
+      "images": [],
+      "sold": false,
+      "id": 6
+    },
+    {
+      "color": "Crvena",
+      "description": "NA PRODAJU ŠKODA OCTAVIA 1.6 TDI GREENTECH STYLE BUSINESS 2017 GODINA.LED.XENON.BI XENON.ACC.NAVIGACIJA.START STOP.PARKING SENZORI.PARK PILOT.POKRETANJE VOZILA BEZ KLJUCA GRIJANJE SJEDISTA.MF VOLAN.TEMPOMAT.EURO 6.LED AMBIJENT .FABRICKI LAK.SERVISNA KNJIGA.DUPLI KLJUCEVI.PLACENO SVE DO REGISTRACIJE.D.O.O AUTO HASANOVIĆ ŽIVINICE 062 982 384 VLASNIK",
+      "doors": "4/5",
+      "emissionStandard": "Euro 6",
+      "gears": "5+R",
+      "lights": "LED",
+      "parkingCamera": "Nema",
+      "rimSize": 17,
+      "tyres": "Zimske",
+      "title": "ŠKODA OCTAVIA 2017 GREENTECH STYLE",
+      "manufacturerId": 20,
+      "modelId": 229,
+      "price": 26400,
+      "year": 2017,
+      "mileage": 199000,
+      "volume": 1.6,
+      "horsepower": 115,
+      "car_typeId": 3,
+      "fuel_typeId": 2,
+      "drive_typeId": 1,
+      "transmission": "Manuelni",
+      "lowestPrice": 24000,
+      "registrationUntil": "2023-01",
+      "dateCreated": "2022-05-15",
+      "images": [],
+      "sold": false,
+      "id": 7
+    },
+    {
+      "color": "Siva",
+      "description": "NA PRODAJU ŠKODA OCTAVIA A7 FL  1.6 CR 85KW 115 KS EURO 6.UVEZENA I REGISTROVANA.DSG MJENJAC.F1 ŠALTANJE.VELIKA NAVIGACIJA.LED DNEVNA SVJETLA.MF VOLAN.PARKING SENZORI.PARK PILOT.START STOP. OGLAS IZ USLUGE 065 492 207 VLASNIK VOZILA",
+      "doors": "4/5",
+      "emissionStandard": "Euro 6",
+      "gears": "7+R",
+      "lights": "LED",
+      "parkingCamera": "Kamera 360",
+      "rimSize": 17,
+      "tyres": "Zimske",
+      "title": "ŠKODA OCTAVIA A7 FL",
+      "manufacturerId": 20,
+      "modelId": 229,
+      "price": 29600,
+      "year": 2017,
+      "mileage": 186000,
+      "volume": 1.6,
+      "horsepower": 115,
+      "car_typeId": 1,
+      "fuel_typeId": 2,
+      "drive_typeId": 1,
+      "transmission": "Automatik",
+      "lowestPrice": 25000,
+      "registrationUntil": "2022-4",
+      "dateCreated": "2022-05-15",
+      "images": [],
+      "sold": false,
+      "id": 8
+    },
+    {
+      "color": "Crna",
+      "description": "NA PRODAJU BMW 320 D F30 2015 GODINA EURO 6 .FULL LED.XENON.BI XENON.PARKING SENZORI.MF VOLAN.START STOP.NAVIGACIJA.KAMERA.120 KW 163 KS.DUPLI KLJUCEVI.FABRICKI LAK.VOZILO KUPLJENO OD PRVOG VLASNIKA.VOZILO REDOVNO SERVISIRANO U OVLASTENOM SERVISU.DOZVOLJEN SVAKI VID PROVJERE VOZILA. NAVEDENA CJENA ISKLJUCIVO ZA KEŠ U ZAMJENI SKUPLJI.D.O.O AUTO HASANOVIĆ MAGISTRALNI PUT ŽIVINICE",
+      "doors": "4/5",
+      "emissionStandard": "Euro 6",
+      "gears": "6+R",
+      "lights": "Xenon",
+      "parkingCamera": "Zadnja",
+      "rimSize": 16,
+      "tyres": "Ljetne",
+      "title": "BMW 320 D F30 2015 FULL",
+      "manufacturerId": 2,
+      "modelId": 18,
+      "price": 30950,
+      "year": 2015,
+      "mileage": 170000,
+      "volume": 2,
+      "horsepower": 163,
+      "car_typeId": 1,
+      "fuel_typeId": 2,
+      "drive_typeId": 1,
+      "transmission": "Manuelni",
+      "lowestPrice": 29000,
+      "registrationUntil": "2022-10",
+      "dateCreated": "2022-05-15",
+      "images": [],
+      "sold": false,
+      "id": 9
+    }
+  ],
+  "images": [
+    {
+      "id": 2,
+      "src64": "https://s9.pik.ba/galerija/2022-05/11/06/slika-502636-627be6d89b1b1-velika.jpg",
+      "adId": 1
+    },
+    {
+      "id": 3,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-62798c4622515-velika.jpg",
+      "adId": 1
+    },
+    {
+      "id": 4,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627940d7abf36-velika.jpg",
+      "adId": 1
+    },
+    {
+      "id": 5,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-62798c976ae84-velika.jpg",
+      "adId": 1
+    },
+    {
+      "id": 6,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-62793a834b809-velika.jpg",
+      "adId": 1
+    },
+    {
+      "id": 7,
+      "src64": "https://s9.pik.ba/galerija/2022-04/27/12/slika-502636-62686ed6ef652-velika.jpg",
+      "adId": 1
+    },
+    {
+      "id": 8,
+      "src64": "https://s9.pik.ba/galerija/2022-04/27/12/slika-502636-62686ec5ee5c3-velika.jpg",
+      "adId": 1
+    },
+    {
+      "id": 9,
+      "src64": "https://s9.pik.ba/galerija/2022-04/27/12/slika-502636-62686efb6ab35-velika.jpg",
+      "adId": 1
+    },
+    {
+      "id": 10,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-6279399cdbc82-velika.jpg",
+      "adId": 1
+    },
+    {
+      "id": 11,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627939d9adba6-velika.jpg",
+      "adId": 1
+    },
+    {
+      "id": 12,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-62793a252a53e-velika.jpg",
+      "adId": 1
+    },
+    {
+      "id": 13,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627940980424e-velika.jpg",
+      "adId": 1
+    },
+    {
+      "id": 14,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627940b16d265-velika.jpg",
+      "adId": 1
+    },
+    {
+      "id": 15,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627940bf94e74-velika.jpg",
+      "adId": 1
+    },
+    {
+      "id": 16,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627940f18273c-velika.jpg",
+      "adId": 1
+    },
+    {
+      "id": 17,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627941035febe-velika.jpg",
+      "adId": 1
+    },
+    {
+      "id": 18,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627941ab6d58a-velika.jpg",
+      "adId": 1
+    },
+    {
+      "id": 19,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-62798ccb547a9-velika.jpg",
+      "adId": 1
+    },
+    {
+      "id": 20,
+      "src64": "https://s9.pik.ba/galerija/2022-05/11/06/slika-502636-627be728ca58a-velika.jpg",
+      "adId": 1
+    },
+    {
+      "id": 21,
+      "src64": "https://s9.pik.ba/galerija/2022-05/11/06/slika-502636-627be76126731-velika.jpg",
+      "adId": 1
+    },
+    {
+      "id": 22,
+      "src64": "https://s9.pik.ba/galerija/2022-05/12/07/slika-502636-627d42787e2ec-velika.jpg",
+      "adId": 1
+    },
+    {
+      "id": 23,
+      "src64": "https://s9.pik.ba/galerija/2022-05/13/03/slika-502636-627e589821a5b-velika.jpg",
+      "adId": 1
+    },
+    {
+      "id": 24,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932888752e-velika.jpg",
+      "adId": 2
+    },
+    {
+      "id": 25,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627933974b8fb-velika.jpg",
+      "adId": 2
+    },
+    {
+      "id": 26,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932afca4ab-velika.jpg",
+      "adId": 2
+    },
+    {
+      "id": 27,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/01/slika-502636-6278fe39ba33e-velika.jpg",
+      "adId": 2
+    },
+    {
+      "id": 28,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932a03958c-velika.jpg",
+      "adId": 2
+    },
+    {
+      "id": 29,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932c1eca02-velika.jpg",
+      "adId": 2
+    },
+    {
+      "id": 30,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932cf3f1e8-velika.jpg",
+      "adId": 2
+    },
+    {
+      "id": 31,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932d9d8626-velika.jpg",
+      "adId": 2
+    },
+    {
+      "id": 32,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932e945089-velika.jpg",
+      "adId": 2
+    },
+    {
+      "id": 33,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932fc28747-velika.jpg",
+      "adId": 2
+    },
+    {
+      "id": 34,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-6279330aa41af-velika.jpg",
+      "adId": 2
+    },
+    {
+      "id": 35,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-6279332b3a2f2-velika.jpg",
+      "adId": 2
+    },
+    {
+      "id": 36,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627933469af48-velika.jpg",
+      "adId": 2
+    },
+    {
+      "id": 37,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-6279336255ed4-velika.jpg",
+      "adId": 2
+    },
+    {
+      "id": 38,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-62798272bf368-velika.jpg",
+      "adId": 2
+    },
+    {
+      "id": 40,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-627989821afaa-velika.jpg",
+      "adId": 2
+    },
+    {
+      "id": 41,
+      "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-627989bcbf8b0-velika.jpg",
+      "adId": 2
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/29/04/slika-502636-626bf3b902b80-velika.jpg",
+      "adId": 3,
+      "id": 42
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/29/09/slika-502636-626c41087ec04-velika.jpg",
+      "adId": 3,
+      "id": 43
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/29/09/slika-502636-626c41357e73e-velika.jpg",
+      "adId": 3,
+      "id": 44
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/29/04/slika-502636-626bf378db26c-velika.jpg",
+      "adId": 3,
+      "id": 45
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-05/10/09/slika-502636-627abfab616ae-velika.jpg",
+      "adId": 3,
+      "id": 46
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/29/09/slika-502636-626c411fc42cb-velika.jpg",
+      "adId": 3,
+      "id": 47
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/11/08/slika-502636-625474d778f11-velika.jpg",
+      "adId": 3,
+      "id": 48
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/11/08/slika-502636-625474efd42b4-velika.jpg",
+      "adId": 3,
+      "id": 49
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/11/08/slika-502636-625474f3430aa-velika.jpg",
+      "adId": 3,
+      "id": 50
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/11/08/slika-502636-625474f5e98d6-velika.jpg",
+      "adId": 3,
+      "id": 51
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/29/02/slika-502636-626bda453c159-velika.jpg",
+      "adId": 3,
+      "id": 52
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/29/04/slika-502636-626bf293938d0-velika.jpg",
+      "adId": 3,
+      "id": 53
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/29/04/slika-502636-626bf32e50ab7-velika.jpg",
+      "adId": 3,
+      "id": 54
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/29/04/slika-502636-626bf33e3bef3-velika.jpg",
+      "adId": 3,
+      "id": 55
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/29/04/slika-502636-626bf3695a45a-velika.jpg",
+      "adId": 3,
+      "id": 56
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/29/04/slika-502636-626bf38e0142c-velika.jpg",
+      "adId": 3,
+      "id": 57
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/29/04/slika-502636-626bf3978a333-velika.jpg",
+      "adId": 3,
+      "id": 58
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/29/04/slika-502636-626bf3a855f6c-velika.jpg",
+      "adId": 3,
+      "id": 59
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/29/09/slika-502636-626c40f77b3ea-velika.jpg",
+      "adId": 3,
+      "id": 60
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/29/09/slika-502636-626c415ddd62e-velika.jpg",
+      "adId": 3,
+      "id": 61
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-05/01/12/slika-502636-626e609c0ab5b-velika.jpg",
+      "adId": 3,
+      "id": 62
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-05/01/12/slika-502636-626e60b39c545-velika.jpg",
+      "adId": 3,
+      "id": 63
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-05/01/12/slika-502636-626e60c4298d3-velika.jpg",
+      "adId": 3,
+      "id": 64
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-05/01/08/slika-502636-626ecbb69191c-velika.jpg",
+      "adId": 3,
+      "id": 65
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-05/13/08/slika-502636-627ea9b66099a-velika.jpg",
+      "adId": 3,
+      "id": 66
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/18/05/slika-502636-6234b0bd94e4b-velika.jpg",
+      "adId": 4,
+      "id": 10
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/18/05/slika-502636-6234b0af563b4-velika.jpg",
+      "adId": 4,
+      "id": 11
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/18/07/slika-502636-6234d34db3eed-velika.jpg",
+      "adId": 4,
+      "id": 12
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/18/07/slika-502636-6234d34db3eed-velika.jpg",
+      "adId": 4,
+      "id": 13
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/18/07/slika-502636-6234d339315e1-velika.jpg",
+      "adId": 4,
+      "id": 14
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/18/07/slika-502636-6234d32b25486-velika.jpg",
+      "adId": 4,
+      "id": 15
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/18/05/slika-502636-6234b28072ec0-velika.jpg",
+      "adId": 4,
+      "id": 16
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/09/03/slika-502636-6228bb50605a9-velika.jpg",
+      "adId": 4,
+      "id": 17
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/09/03/slika-502636-6228bb4715ca5-velika.jpg",
+      "adId": 4,
+      "id": 18
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/20/08/slika-502636-6260520239f0c-velika.jpg",
+      "adId": 4,
+      "id": 19
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/20/08/slika-502636-6260520239f0c-velika.jpg",
+      "adId": 4,
+      "id": 20
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/09/03/slika-502636-6228bb79b7bef-velika.jpg",
+      "adId": 4,
+      "id": 21
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/09/03/slika-502636-6228bb6e2d605-velika.jpg",
+      "adId": 4,
+      "id": 22
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/09/03/slika-502636-6228bb809972c-velika.jpg",
+      "adId": 4,
+      "id": 23
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/09/03/slika-502636-6228bb80ca97c-velika.jpg",
+      "adId": 4,
+      "id": 24
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/18/05/slika-502636-6234b23a67b3e-velika.jpg",
+      "adId": 4,
+      "id": 25
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/18/05/slika-502636-6234b24baf95e-velika.jpg",
+      "adId": 4,
+      "id": 26
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/18/05/slika-502636-6234b25b09187-velika.jpg",
+      "adId": 4,
+      "id": 27
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/18/05/slika-502636-6234b26c6972d-velika.jpg",
+      "adId": 4,
+      "id": 28
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/18/08/slika-502636-6234e159ced05-velika.jpg",
+      "adId": 4,
+      "id": 29
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/18/08/slika-502636-6234e16f38579-velika.jpg",
+      "adId": 4,
+      "id": 30
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/25/06/slika-502636-623df9c09569e-velika.jpg",
+      "adId": 4,
+      "id": 31
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/25/06/slika-502636-623df9f4d1d26-velika.jpg",
+      "adId": 4,
+      "id": 32
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-05/11/08/slika-502636-627b53808068f-velika.jpg",
+      "adId": 5,
+      "id": 33
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/29/09/slika-502636-626c41f184332-velika.jpg",
+      "adId": 5,
+      "id": 34
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/09/02/slika-502636-6228ad2887c87-velika.jpg",
+      "adId": 5,
+      "id": 35
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/09/02/slika-502636-6228acdcec355-velika.jpg",
+      "adId": 5,
+      "id": 36
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/09/02/slika-502636-6228ace759fff-velika.jpg",
+      "adId": 5,
+      "id": 37
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/09/02/slika-502636-6228ad0bb50bb-velika.jpg",
+      "adId": 5,
+      "id": 38
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/09/02/slika-502636-6228ad0f763f0-velika.jpg",
+      "adId": 5,
+      "id": 39
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/09/02/slika-502636-6228ad1b68c7f-velika.jpg",
+      "adId": 5,
+      "id": 40
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/09/02/slika-502636-6228ad3923302-velika.jpg",
+      "adId": 5,
+      "id": 41
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/09/02/slika-502636-6228ad4509fc1-velika.jpg",
+      "adId": 5,
+      "id": 42
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/09/05/slika-502636-6228d66148e17-velika.jpg",
+      "adId": 5,
+      "id": 43
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/09/05/slika-502636-6228d684b4875-velika.jpg",
+      "adId": 5,
+      "id": 44
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/29/09/slika-502636-626c41d4ced2b-velika.jpg",
+      "adId": 5,
+      "id": 45
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/29/10/slika-502636-626c43c7389cc-velika.jpg",
+      "adId": 5,
+      "id": 46
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/29/10/slika-502636-626c43d52db41-velika.jpg",
+      "adId": 5,
+      "id": 47
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/29/10/slika-502636-626c43e550f43-velika.jpg",
+      "adId": 5,
+      "id": 48
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/29/10/slika-502636-626c43f5355b9-velika.jpg",
+      "adId": 5,
+      "id": 49
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/29/10/slika-502636-626c43fedb8f8-velika.jpg",
+      "adId": 5,
+      "id": 50
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/29/10/slika-502636-626c440e22e48-velika.jpg",
+      "adId": 5,
+      "id": 51
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/29/10/slika-502636-626c441988ebe-velika.jpg",
+      "adId": 5,
+      "id": 52
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/29/10/slika-502636-626c4432a3d51-velika.jpg",
+      "adId": 5,
+      "id": 53
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-05/11/08/slika-502636-627b5341aaa0c-velika.jpg",
+      "adId": 5,
+      "id": 54
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-05/11/08/slika-502636-627b5353b3223-velika.jpg",
+      "adId": 5,
+      "id": 55
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-05/11/08/slika-502636-627b5393deb2c-velika.jpg",
+      "adId": 5,
+      "id": 56
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/22/08/slika-502636-6262f18ed4751-velika.jpg",
+      "adId": 6,
+      "id": 57
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/22/08/slika-502636-6262f20dbba22-velika.jpg",
+      "adId": 6,
+      "id": 58
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/19/07/slika-502636-625eecb1e3d76-velika.jpg",
+      "adId": 6,
+      "id": 59
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/19/07/slika-502636-625eecc2b8fc7-velika.jpg",
+      "adId": 6,
+      "id": 60
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/19/07/slika-502636-625eece197436-velika.jpg",
+      "adId": 6,
+      "id": 61
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/19/07/slika-502636-625eecf2affda-velika.jpg",
+      "adId": 6,
+      "id": 62
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/19/07/slika-502636-625eecffd32ea-velika.jpg",
+      "adId": 6,
+      "id": 63
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/19/07/slika-502636-625eed14be654-velika.jpg",
+      "adId": 6,
+      "id": 64
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/19/07/slika-502636-625eed26300c2-velika.jpg",
+      "adId": 6,
+      "id": 65
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/19/07/slika-502636-625eed39c8414-velika.jpg",
+      "adId": 6,
+      "id": 66
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/19/07/slika-502636-625eed4f5b074-velika.jpg",
+      "adId": 6,
+      "id": 67
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/19/07/slika-502636-625eed675182d-velika.jpg",
+      "adId": 6,
+      "id": 68
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/19/07/slika-502636-625eed7d79595-velika.jpg",
+      "adId": 6,
+      "id": 69
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/19/07/slika-502636-625eed8aee272-velika.jpg",
+      "adId": 6,
+      "id": 70
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/19/07/slika-502636-625eeda7704ea-velika.jpg",
+      "adId": 6,
+      "id": 71
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/19/07/slika-502636-625eedc799423-velika.jpg",
+      "adId": 6,
+      "id": 72
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/19/07/slika-502636-625eedd94389a-velika.jpg",
+      "adId": 6,
+      "id": 73
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/19/07/slika-502636-625eedf5145fe-velika.jpg",
+      "adId": 6,
+      "id": 74
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/19/09/slika-502636-625f12d02c89a-velika.jpg",
+      "adId": 6,
+      "id": 75
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/22/08/slika-502636-6262f19f49635-velika.jpg",
+      "adId": 6,
+      "id": 76
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/22/08/slika-502636-6262f1b293667-velika.jpg",
+      "adId": 6,
+      "id": 77
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/22/08/slika-502636-6262f1c185541-velika.jpg",
+      "adId": 6,
+      "id": 78
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/22/08/slika-502636-6262f1cd0b6f5-velika.jpg",
+      "adId": 6,
+      "id": 79
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/22/08/slika-502636-6262f1de73864-velika.jpg",
+      "adId": 6,
+      "id": 80
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/12/slika-502636-62652d8ec6822-velika.jpg",
+      "adId": 7,
+      "id": 81
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/02/slika-502636-6265450c1c74e-velika.jpg",
+      "adId": 7,
+      "id": 82
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/12/slika-502636-62652c7b4f0de-velika.jpg",
+      "adId": 7,
+      "id": 83
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/25/05/slika-502636-6266c37bdd6d1-velika.jpg",
+      "adId": 7,
+      "id": 84
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/02/slika-502636-62654495a967a-velika.jpg",
+      "adId": 7,
+      "id": 85
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/12/slika-502636-62652823edc44-velika.jpg",
+      "adId": 7,
+      "id": 86
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/12/slika-502636-62652c911f9e4-velika.jpg",
+      "adId": 7,
+      "id": 87
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/09/02/slika-502636-6228b034edff2-velika.jpg",
+      "adId": 7,
+      "id": 88
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/09/02/slika-502636-6228b0aa2c496-velika.jpg",
+      "adId": 7,
+      "id": 89
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-03/09/02/slika-502636-6228b0bf199da-velika.jpg",
+      "adId": 7,
+      "id": 90
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/23/08/slika-502636-626446a0ac736-velika.jpg",
+      "adId": 7,
+      "id": 91
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/12/slika-502636-62652c412b9ba-velika.jpg",
+      "adId": 7,
+      "id": 92
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/12/slika-502636-62652c5ea8312-velika.jpg",
+      "adId": 7,
+      "id": 93
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/12/slika-502636-62652ca974220-velika.jpg",
+      "adId": 7,
+      "id": 94
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/12/slika-502636-62652ce20a9f2-velika.jpg",
+      "adId": 7,
+      "id": 95
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/12/slika-502636-62652cf305dac-velika.jpg",
+      "adId": 7,
+      "id": 96
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/12/slika-502636-62652d0868796-velika.jpg",
+      "adId": 7,
+      "id": 97
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/12/slika-502636-62652d6579813-velika.jpg",
+      "adId": 7,
+      "id": 98
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/01/slika-502636-62652ebd6b907-velika.jpg",
+      "adId": 7,
+      "id": 99
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/02/slika-502636-6265448b9b350-velika.jpg",
+      "adId": 7,
+      "id": 100
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/02/slika-502636-626544faa4523-velika.jpg",
+      "adId": 7,
+      "id": 101
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/02/slika-502636-6265451a8d52f-velika.jpg",
+      "adId": 7,
+      "id": 102
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/02/slika-502636-6265453e4e3e3-velika.jpg",
+      "adId": 7,
+      "id": 103
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/02/slika-502636-626545669d9df-velika.jpg",
+      "adId": 7,
+      "id": 104
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/25/05/slika-502636-6266c3b775368-velika.jpg",
+      "adId": 7,
+      "id": 105
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-05/12/01/slika-502636-627cf2bc04f99-velika.jpg",
+      "adId": 8,
+      "id": 106
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-05/12/01/slika-502636-627cf34413004-velika.jpg",
+      "adId": 8,
+      "id": 107
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/02/slika-502636-62653c9ecc2d0-velika.jpg",
+      "adId": 8,
+      "id": 108
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/02/slika-502636-62653ecc0dfb2-velika.jpg",
+      "adId": 8,
+      "id": 109
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/25/12/slika-502636-6266785466917-velika.jpg",
+      "adId": 8,
+      "id": 110
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/25/12/slika-502636-6266788a9836f-velika.jpg",
+      "adId": 8,
+      "id": 111
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/02/slika-502636-62653c79acbb4-velika.jpg",
+      "adId": 8,
+      "id": 112
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/23/08/slika-502636-6264444aa3af4-velika.jpg",
+      "adId": 8,
+      "id": 113
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/23/08/slika-502636-62644481a4105-velika.jpg",
+      "adId": 8,
+      "id": 114
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/02/slika-502636-62653c6333470-velika.jpg",
+      "adId": 8,
+      "id": 115
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/02/slika-502636-62653cab8c38f-velika.jpg",
+      "adId": 8,
+      "id": 116
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/02/slika-502636-62653cc94777f-velika.jpg",
+      "adId": 8,
+      "id": 117
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/02/slika-502636-62653cd56e067-velika.jpg",
+      "adId": 8,
+      "id": 118
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/02/slika-502636-62653ce4c07ac-velika.jpg",
+      "adId": 8,
+      "id": 119
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/02/slika-502636-62653cf5d2b48-velika.jpg",
+      "adId": 8,
+      "id": 120
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/02/slika-502636-62653d04ac033-velika.jpg",
+      "adId": 8,
+      "id": 121
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/02/slika-502636-62653d35ccf3d-velika.jpg",
+      "adId": 8,
+      "id": 122
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/02/slika-502636-62653d1e18ebc-velika.jpg",
+      "adId": 8,
+      "id": 123
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/02/slika-502636-62653d4b58bb9-velika.jpg",
+      "adId": 8,
+      "id": 124
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/02/slika-502636-62653da6a044d-velika.jpg",
+      "adId": 8,
+      "id": 125
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/02/slika-502636-62653db0c35ed-velika.jpg",
+      "adId": 8,
+      "id": 126
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/02/slika-502636-62653dc7e95af-velika.jpg",
+      "adId": 8,
+      "id": 127
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/24/02/slika-502636-62653ea73055b-velika.jpg",
+      "adId": 8,
+      "id": 128
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/25/12/slika-502636-6266784424804-velika.jpg",
+      "adId": 8,
+      "id": 129
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-04/25/05/slika-502636-6266c3f52e53c-velika.jpg",
+      "adId": 8,
+      "id": 130
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2021-10/21/03/slika-502636-617171f2463a1-velika.jpg",
+      "adId": 9,
+      "id": 131
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-02/12/05/slika-502636-6207e5f4103fd-velika.jpg",
+      "adId": 9,
+      "id": 132
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2021-10/19/05/slika-502636-616ee9ca471b8-velika.jpg",
+      "adId": 9,
+      "id": 133
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2021-10/21/03/slika-502636-617171fe4d9e0-velika.jpg",
+      "adId": 9,
+      "id": 134
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2021-10/21/03/slika-502636-6171723869260-velika.jpg",
+      "adId": 9,
+      "id": 135
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-02/12/05/slika-502636-6207e5e55c103-velika.jpg",
+      "adId": 9,
+      "id": 136
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2022-02/12/05/slika-502636-6207e600998ed-velika.jpg",
+      "adId": 9,
+      "id": 137
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2021-10/21/03/slika-502636-6171720be5a78-velika.jpg",
+      "adId": 9,
+      "id": 138
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2021-10/21/04/slika-502636-6171727688479-velika.jpg",
+      "adId": 9,
+      "id": 139
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2021-10/21/03/slika-502636-6171722c23417-velika.jpg",
+      "adId": 9,
+      "id": 140
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2021-09/30/09/slika-502636-6155622040307-velika.jpg",
+      "adId": 9,
+      "id": 141
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2021-09/30/09/slika-502636-61556223ad68e-velika.jpg",
+      "adId": 9,
+      "id": 142
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2021-09/30/09/slika-502636-6155625118c40-velika.jpg",
+      "adId": 9,
+      "id": 143
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2021-09/30/09/slika-502636-615562886eae4-velika.jpg",
+      "adId": 9,
+      "id": 144
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2021-09/30/09/slika-502636-6155629a953ce-velika.jpg",
+      "adId": 9,
+      "id": 145
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2021-09/30/09/slika-502636-615562c933178-velika.jpg",
+      "adId": 9,
+      "id": 146
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2021-09/30/09/slika-502636-615562db3381e-velika.jpg",
+      "adId": 9,
+      "id": 147
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2021-09/30/09/slika-502636-615562e70d97c-velika.jpg",
+      "adId": 9,
+      "id": 148
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2021-09/30/11/slika-502636-61558724109e6-velika.jpg",
+      "adId": 9,
+      "id": 149
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2021-10/17/12/slika-502636-616c00502ea29-velika.jpg",
+      "adId": 9,
+      "id": 150
+    },
+    {
+      "src64": "https://s9.pik.ba/galerija/2021-10/21/04/slika-502636-61717266df05e-velika.jpg",
+      "adId": 9,
+      "id": 151
+    }
+  ],
+  "announcements": [
+    {
+      "id": 1,
+      "title": "Bajram Šerif Mubarek Olsun",
+      "text": "Bajram Šerif Mubarek Olsun želi vam vaš Auto Hasanović! Povodom obilježavanja Bajrama, naša poslovnica neće raditi 2. i 3. maja (ponedjeljak i utorak). Od 4. maja nastavljamo po uobičajenom radnom vremenu.",
+      "dateCreated": "2022-04-30"
+    }
+  ],
+  "offers": [
+    {
+      "username": "armin_r",
+      "offer": 36000,
+      "adId": 1,
+      "message": "Merhaba",
+      "response": "accepted",
+      "id": 1,
+      "ad": {
+        "color": "Crna",
+        "description": "NA PRODAJU VW PASSAT B8 R LINE VIRTUAL COCKPIT .PANORAMA KROV.KAMERA.XENON.BI XENON.LED.NAVIGACIJA.TEMPOMAT.START STOP.POKRETANJE VOZILA BEZ KLJUCA.GRIJANJE SJEDISTA.LED AMBIJENT .FULL SERVISNA ISTORIJA I VW .VOZILO REDOVNO SERVISIRANO.FABRICKI LAK.EURO 6 .NAVEDENA CJENA ISKLJUCIVO ZA KEŠ .D.O.O AUTO HASANOVIC  ŽIVINICE 062 982 384 VLASNIK",
+        "doors": "4/5",
+        "emissionStandard": "Euro 6",
+        "gears": "6+R",
+        "lights": "Xenon",
+        "parkingCamera": "Zadnja",
+        "rimSize": 17,
+        "tyres": "Zimske",
+        "title": "VW PASSAT B8 R LINE VIRTUAL COCKPIT",
+        "manufacturerId": 4,
+        "modelId": 49,
+        "price": 36950,
+        "year": 2016,
+        "mileage": 177000,
+        "volume": 1.6,
+        "horsepower": 120,
+        "car_typeId": 1,
+        "fuel_typeId": 2,
+        "drive_typeId": 1,
+        "transmission": "Manuelni",
+        "lowestPrice": 35000,
+        "registrationUntil": "2023-01",
+        "dateCreated": "5.4.2022.",
+        "images": [
+          {
+            "id": 2,
+            "src64": "https://s9.pik.ba/galerija/2022-05/11/06/slika-502636-627be6d89b1b1-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 3,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-62798c4622515-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 4,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627940d7abf36-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 5,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-62798c976ae84-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 6,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-62793a834b809-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 7,
+            "src64": "https://s9.pik.ba/galerija/2022-04/27/12/slika-502636-62686ed6ef652-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 8,
+            "src64": "https://s9.pik.ba/galerija/2022-04/27/12/slika-502636-62686ec5ee5c3-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 9,
+            "src64": "https://s9.pik.ba/galerija/2022-04/27/12/slika-502636-62686efb6ab35-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 10,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-6279399cdbc82-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 11,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627939d9adba6-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 12,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-62793a252a53e-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 13,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627940980424e-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 14,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627940b16d265-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 15,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627940bf94e74-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 16,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627940f18273c-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 17,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627941035febe-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 18,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627941ab6d58a-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 19,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-62798ccb547a9-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 20,
+            "src64": "https://s9.pik.ba/galerija/2022-05/11/06/slika-502636-627be728ca58a-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 21,
+            "src64": "https://s9.pik.ba/galerija/2022-05/11/06/slika-502636-627be76126731-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 22,
+            "src64": "https://s9.pik.ba/galerija/2022-05/12/07/slika-502636-627d42787e2ec-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 23,
+            "src64": "https://s9.pik.ba/galerija/2022-05/13/03/slika-502636-627e589821a5b-velika.jpg",
+            "adId": 1
+          }
+        ],
+        "sold": false,
+        "id": 1,
+        "manufacturer": {
+          "id": 4,
+          "name": "Volkswagen",
+          "countryId": 1
+        },
+        "model": {
+          "id": 49,
+          "name": "Passat",
+          "manufacturerId": 4
+        },
+        "car_type": {
+          "id": 1,
+          "type": "Limuzina"
+        },
+        "fuel_type": {
+          "id": 2,
+          "type": "Dizel"
+        },
+        "drive_type": {
+          "id": 1,
+          "type": "Prednji"
+        }
+      }
+    },
+    {
+      "username": "safet_h",
+      "offer": 19500,
+      "adId": 2,
+      "message": "Zamjena za artikl na linku \nhttps://www.olx.ba/artikal/47676250/audi-tt-2-0-tfsi/",
+      "response": "accepted",
+      "id": 2,
+      "ad": {
+        "color": "Siva",
+        "description": "NA PRODAJU VW GOLF 7 1.6 81KW CR BLUEMOTION EURO 6 .KAMERA .NAVIGACIJA.MF VOLAN.LED AMBIJENT.TEMPOMAT.PARKING SENZORI .PARK PILOT.START STOP GRIJANJE SJEDISTA.ABS.ESP.KLIMA .4 X EL PODIZACI.DUPLI KLJUCEVI.FABRICKI LAK.VOZILO REDOVNO SERVISIRANO U OVLASTENOM SERVISU.PLACENO SVE DO REGISTRACIJE.DOZVOLJEN SVAKI VID PROVJERE.D.O.O AUTO HASANOVIĆ ŽIVINICE 062 982 384 VLASNIK",
+        "doors": "4/5",
+        "emissionStandard": "Euro 6",
+        "gears": "5+R",
+        "lights": "Xenon",
+        "parkingCamera": "Zadnja",
+        "rimSize": 17,
+        "tyres": "Zimske",
+        "title": "VW GOLF 7 2016 81KW HIGHLINE",
+        "manufacturerId": 4,
+        "modelId": 47,
+        "price": 20750,
+        "year": 2016,
+        "mileage": 221000,
+        "volume": 1.6,
+        "horsepower": 110,
+        "car_typeId": 3,
+        "fuel_typeId": 2,
+        "drive_typeId": 1,
+        "transmission": "Manuelni",
+        "lowestPrice": 19000,
+        "registrationUntil": "2023-01",
+        "dateCreated": "5.4.2022.",
+        "images": [
+          {
+            "id": 24,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932888752e-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 25,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627933974b8fb-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 26,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932afca4ab-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 27,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/01/slika-502636-6278fe39ba33e-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 28,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932a03958c-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 29,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932c1eca02-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 30,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932cf3f1e8-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 31,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932d9d8626-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 32,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932e945089-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 33,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932fc28747-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 34,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-6279330aa41af-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 35,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-6279332b3a2f2-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 36,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627933469af48-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 37,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-6279336255ed4-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 38,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-62798272bf368-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 39,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-6279827cdbe74-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 40,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-627989821afaa-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 41,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-627989bcbf8b0-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 42,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-627989ec29341-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 43,
+            "src64": "https://s9.pik.ba/galerija/2022-05/13/06/slika-502636-627e83983a95e-velika.jpg",
+            "adId": 2
+          }
+        ],
+        "sold": false,
+        "id": 2,
+        "manufacturer": {
+          "id": 4,
+          "name": "Volkswagen",
+          "countryId": 1
+        },
+        "model": {
+          "id": 47,
+          "name": "Golf",
+          "manufacturerId": 4
+        },
+        "car_type": {
+          "id": 3,
+          "type": "Karavan"
+        },
+        "fuel_type": {
+          "id": 2,
+          "type": "Dizel"
+        },
+        "drive_type": {
+          "id": 1,
+          "type": "Prednji"
+        }
+      }
+    },
+    {
+      "username": "faruk_b",
+      "offer": 20000,
+      "adId": 2,
+      "message": "Keš",
+      "response": "accepted",
+      "id": 3,
+      "ad": {
+        "color": "Siva",
+        "description": "NA PRODAJU VW GOLF 7 1.6 81KW CR BLUEMOTION EURO 6 .KAMERA .NAVIGACIJA.MF VOLAN.LED AMBIJENT.TEMPOMAT.PARKING SENZORI .PARK PILOT.START STOP GRIJANJE SJEDISTA.ABS.ESP.KLIMA .4 X EL PODIZACI.DUPLI KLJUCEVI.FABRICKI LAK.VOZILO REDOVNO SERVISIRANO U OVLASTENOM SERVISU.PLACENO SVE DO REGISTRACIJE.DOZVOLJEN SVAKI VID PROVJERE.D.O.O AUTO HASANOVIĆ ŽIVINICE 062 982 384 VLASNIK",
+        "doors": "4/5",
+        "emissionStandard": "Euro 6",
+        "gears": "5+R",
+        "lights": "Xenon",
+        "parkingCamera": "Zadnja",
+        "rimSize": 17,
+        "tyres": "Zimske",
+        "title": "VW GOLF 7 2016 81KW HIGHLINE",
+        "manufacturerId": 4,
+        "modelId": 47,
+        "price": 20750,
+        "year": 2016,
+        "mileage": 221000,
+        "volume": 1.6,
+        "horsepower": 110,
+        "car_typeId": 3,
+        "fuel_typeId": 2,
+        "drive_typeId": 1,
+        "transmission": "Manuelni",
+        "lowestPrice": 19000,
+        "registrationUntil": "2023-01",
+        "dateCreated": "5.4.2022.",
+        "images": [
+          {
+            "id": 24,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932888752e-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 25,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627933974b8fb-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 26,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932afca4ab-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 27,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/01/slika-502636-6278fe39ba33e-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 28,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932a03958c-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 29,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932c1eca02-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 30,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932cf3f1e8-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 31,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932d9d8626-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 32,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932e945089-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 33,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627932fc28747-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 34,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-6279330aa41af-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 35,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-6279332b3a2f2-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 36,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627933469af48-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 37,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-6279336255ed4-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 38,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-62798272bf368-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 39,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-6279827cdbe74-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 40,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-627989821afaa-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 41,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-627989bcbf8b0-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 42,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-627989ec29341-velika.jpg",
+            "adId": 2
+          },
+          {
+            "id": 43,
+            "src64": "https://s9.pik.ba/galerija/2022-05/13/06/slika-502636-627e83983a95e-velika.jpg",
+            "adId": 2
+          }
+        ],
+        "sold": false,
+        "id": 2,
+        "manufacturer": {
+          "id": 4,
+          "name": "Volkswagen",
+          "countryId": 1
+        },
+        "model": {
+          "id": 47,
+          "name": "Golf",
+          "manufacturerId": 4
+        },
+        "car_type": {
+          "id": 3,
+          "type": "Karavan"
+        },
+        "fuel_type": {
+          "id": 2,
+          "type": "Dizel"
+        },
+        "drive_type": {
+          "id": 1,
+          "type": "Prednji"
+        }
+      }
+    },
+    {
+      "username": "armin_r",
+      "offer": 20000,
+      "adId": 2,
+      "message": "Zadnja ponuda, keš",
+      "response": "pending",
+      "id": 4
+    },
+    {
+      "username": "armin_r",
+      "offer": 35000,
+      "adId": 1,
+      "message": "Message",
+      "response": "rejected",
+      "id": 5,
+      "ad": {
+        "color": "Crna",
+        "description": "NA PRODAJU VW PASSAT B8 R LINE VIRTUAL COCKPIT .PANORAMA KROV.KAMERA.XENON.BI XENON.LED.NAVIGACIJA.TEMPOMAT.START STOP.POKRETANJE VOZILA BEZ KLJUCA.GRIJANJE SJEDISTA.LED AMBIJENT .FULL SERVISNA ISTORIJA I VW .VOZILO REDOVNO SERVISIRANO.FABRICKI LAK.EURO 6 .NAVEDENA CJENA ISKLJUCIVO ZA KEŠ .D.O.O AUTO HASANOVIC  ŽIVINICE 062 982 384 VLASNIK",
+        "doors": "4/5",
+        "emissionStandard": "Euro 6",
+        "gears": "6+R",
+        "lights": "Xenon",
+        "parkingCamera": "Zadnja",
+        "rimSize": 17,
+        "tyres": "Zimske",
+        "title": "VW PASSAT B8 R LINE VIRTUAL COCKPIT",
+        "manufacturerId": 4,
+        "modelId": 49,
+        "price": 36950,
+        "year": 2016,
+        "mileage": 177000,
+        "volume": 1.6,
+        "horsepower": 120,
+        "car_typeId": 1,
+        "fuel_typeId": 2,
+        "drive_typeId": 1,
+        "transmission": "Manuelni",
+        "lowestPrice": 35000,
+        "registrationUntil": "2023-01",
+        "dateCreated": "5.4.2022.",
+        "images": [
+          {
+            "id": 2,
+            "src64": "https://s9.pik.ba/galerija/2022-05/11/06/slika-502636-627be6d89b1b1-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 3,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-62798c4622515-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 4,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627940d7abf36-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 5,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-62798c976ae84-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 6,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-62793a834b809-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 7,
+            "src64": "https://s9.pik.ba/galerija/2022-04/27/12/slika-502636-62686ed6ef652-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 8,
+            "src64": "https://s9.pik.ba/galerija/2022-04/27/12/slika-502636-62686ec5ee5c3-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 9,
+            "src64": "https://s9.pik.ba/galerija/2022-04/27/12/slika-502636-62686efb6ab35-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 10,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-6279399cdbc82-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 11,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627939d9adba6-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 12,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-62793a252a53e-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 13,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627940980424e-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 14,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627940b16d265-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 15,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627940bf94e74-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 16,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627940f18273c-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 17,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627941035febe-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 18,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627941ab6d58a-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 19,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-62798ccb547a9-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 20,
+            "src64": "https://s9.pik.ba/galerija/2022-05/11/06/slika-502636-627be728ca58a-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 21,
+            "src64": "https://s9.pik.ba/galerija/2022-05/11/06/slika-502636-627be76126731-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 22,
+            "src64": "https://s9.pik.ba/galerija/2022-05/12/07/slika-502636-627d42787e2ec-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 23,
+            "src64": "https://s9.pik.ba/galerija/2022-05/13/03/slika-502636-627e589821a5b-velika.jpg",
+            "adId": 1
+          }
+        ],
+        "sold": false,
+        "id": 1,
+        "manufacturer": {
+          "id": 4,
+          "name": "Volkswagen",
+          "countryId": 1
+        },
+        "model": {
+          "id": 49,
+          "name": "Passat",
+          "manufacturerId": 4
+        },
+        "car_type": {
+          "id": 1,
+          "type": "Limuzina"
+        },
+        "fuel_type": {
+          "id": 2,
+          "type": "Dizel"
+        },
+        "drive_type": {
+          "id": 1,
+          "type": "Prednji"
+        }
+      }
+    },
+    {
+      "username": "armin_r",
+      "offer": 35100,
+      "adId": 1,
+      "message": "",
+      "response": "rejected",
+      "id": 6,
+      "ad": {
+        "color": "Crna",
+        "description": "NA PRODAJU VW PASSAT B8 R LINE VIRTUAL COCKPIT .PANORAMA KROV.KAMERA.XENON.BI XENON.LED.NAVIGACIJA.TEMPOMAT.START STOP.POKRETANJE VOZILA BEZ KLJUCA.GRIJANJE SJEDISTA.LED AMBIJENT .FULL SERVISNA ISTORIJA I VW .VOZILO REDOVNO SERVISIRANO.FABRICKI LAK.EURO 6 .NAVEDENA CJENA ISKLJUCIVO ZA KEŠ .D.O.O AUTO HASANOVIC  ŽIVINICE 062 982 384 VLASNIK",
+        "doors": "4/5",
+        "emissionStandard": "Euro 6",
+        "gears": "6+R",
+        "lights": "Xenon",
+        "parkingCamera": "Zadnja",
+        "rimSize": 17,
+        "tyres": "Zimske",
+        "title": "VW PASSAT B8 R LINE VIRTUAL COCKPIT",
+        "manufacturerId": 4,
+        "modelId": 49,
+        "price": 36950,
+        "year": 2016,
+        "mileage": 177000,
+        "volume": 1.6,
+        "horsepower": 120,
+        "car_typeId": 1,
+        "fuel_typeId": 2,
+        "drive_typeId": 1,
+        "transmission": "Manuelni",
+        "lowestPrice": 35000,
+        "registrationUntil": "2023-01",
+        "dateCreated": "5.4.2022.",
+        "images": [
+          {
+            "id": 2,
+            "src64": "https://s9.pik.ba/galerija/2022-05/11/06/slika-502636-627be6d89b1b1-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 3,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-62798c4622515-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 4,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627940d7abf36-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 5,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-62798c976ae84-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 6,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-62793a834b809-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 7,
+            "src64": "https://s9.pik.ba/galerija/2022-04/27/12/slika-502636-62686ed6ef652-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 8,
+            "src64": "https://s9.pik.ba/galerija/2022-04/27/12/slika-502636-62686ec5ee5c3-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 9,
+            "src64": "https://s9.pik.ba/galerija/2022-04/27/12/slika-502636-62686efb6ab35-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 10,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-6279399cdbc82-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 11,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-627939d9adba6-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 12,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/05/slika-502636-62793a252a53e-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 13,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627940980424e-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 14,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627940b16d265-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 15,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627940bf94e74-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 16,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627940f18273c-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 17,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627941035febe-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 18,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/06/slika-502636-627941ab6d58a-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 19,
+            "src64": "https://s9.pik.ba/galerija/2022-05/09/11/slika-502636-62798ccb547a9-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 20,
+            "src64": "https://s9.pik.ba/galerija/2022-05/11/06/slika-502636-627be728ca58a-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 21,
+            "src64": "https://s9.pik.ba/galerija/2022-05/11/06/slika-502636-627be76126731-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 22,
+            "src64": "https://s9.pik.ba/galerija/2022-05/12/07/slika-502636-627d42787e2ec-velika.jpg",
+            "adId": 1
+          },
+          {
+            "id": 23,
+            "src64": "https://s9.pik.ba/galerija/2022-05/13/03/slika-502636-627e589821a5b-velika.jpg",
+            "adId": 1
+          }
+        ],
+        "sold": false,
+        "id": 1,
+        "manufacturer": {
+          "id": 4,
+          "name": "Volkswagen",
+          "countryId": 1
+        },
+        "model": {
+          "id": 49,
+          "name": "Passat",
+          "manufacturerId": 4
+        },
+        "car_type": {
+          "id": 1,
+          "type": "Limuzina"
+        },
+        "fuel_type": {
+          "id": 2,
+          "type": "Dizel"
+        },
+        "drive_type": {
+          "id": 1,
+          "type": "Prednji"
+        }
+      }
+    }
+  ]
+}

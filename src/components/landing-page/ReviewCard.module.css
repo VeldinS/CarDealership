@@ -1,0 +1,25 @@
+.reviewCard{
+    height: 100%;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.reviewCard > *,
+.reviewCard h3 {
+    margin-bottom: 1rem;
+}
+
+.reviewCard p{
+    font-size: 1.1rem;
+}
+
+.userInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.userInfo > svg{
+    color: red;
+}
+

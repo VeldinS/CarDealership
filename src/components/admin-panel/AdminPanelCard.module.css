@@ -1,0 +1,15 @@
+.card{
+    height: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    gap: 3rem;
+}
+
+.card:hover,
+.card:focus {
+    transform: scale(1.02);
+    transition: all 100ms ease-in-out;
+}

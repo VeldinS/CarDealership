@@ -1,0 +1,34 @@
+.adCard:hover,
+.adCard:focus {
+    transform: scale(1.02);
+    transition: all 100ms ease-in-out;
+}
+
+.adCard{
+    border-radius: 10px;
+    height: 100%;
+    position: relative;
+}
+
+.adThumbnail{
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.attributesGrid{
+    text-align: center;
+    text-decoration: none;
+    font-weight: normal;
+    padding-block: 1rem;
+}
+
+.price{
+    width: 100%;
+    text-align: end;
+    color: var(--light-red);
+    position: absolute;
+    bottom: 0;
+    padding-inline: 1rem;
+    padding-bottom: 0.5rem;
+    font-weight: 600;
+}

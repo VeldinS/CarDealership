@@ -1,0 +1,26 @@
+.buttonFilled{
+    outline: none;
+    border: none;
+    color: white;
+    padding: 0.8rem 4rem;
+    cursor: pointer;
+    font-size: 0.7rem;
+    height: 100%;
+    width: 100%;
+}
+button:active{
+    transform: scale(0.98);
+    filter: grayscale(0.2);
+}
+
+.buttonOutlined{
+    outline: none;
+    border: none;
+    padding: 0.8rem 4rem;
+    cursor: pointer;
+    font-size: 0.7rem;
+    background-color: transparent;
+    background-repeat:no-repeat;
+    height: 100%;
+    width: 100%;
+}
